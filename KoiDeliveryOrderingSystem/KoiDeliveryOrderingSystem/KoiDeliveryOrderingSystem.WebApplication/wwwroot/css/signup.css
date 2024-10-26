@@ -1,0 +1,96 @@
+body{
+    background-image: url('../img/backgrow2222.png');
+    background-size: cover; /* Hiển thị hình nền với tỉ lệ giữa chiều rộng và chiều cao được bảo toàn */
+    background-position: center; /* Căn chỉnh hình nền vào giữa màn hình */
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.signup{
+    width: 450px;
+    height: 560px;
+    background: rgba(255, 255, 255, 0.1); /* Màu trắng với độ trong suốt 0.5 */;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+.signup:hover{
+    box-shadow: 0 0 10px red;
+}
+.signup h1{
+    display: inline-block;
+   color: aliceblue;
+}
+
+.signup input{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: white;
+}
+.checkbox input{
+    width: 15px;
+    height: 15px;
+    margin-left: 40px;
+    color: white;
+}
+
+.signup .submit{
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.signup .submit:hover{
+    background-color: #00FF7F;
+    box-shadow: 0 0 10px #ADFF2F;
+}
+p{
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+    margin: 1px;
+    color: aliceblue;
+}
+.checkbox{
+    float: left;
+}
+.color{
+    background: rgba(255, 255, 255, 0.1); /* Màu trắng với độ trong suốt 0.1*/
+    color: white;
+}
+
+.textdn{
+    color: azure;
+}
+
+#message{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.signup .fa-phone {
+    padding-left: 8px;
+}
+.signup .fa-envelope{
+    padding-right 8px;
+}

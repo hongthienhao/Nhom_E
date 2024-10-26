@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <link rel="icon" href="img/logoweb.jpg" type="image/png">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body> 
+    <form class="signup" name="frm1" action="" onsubmit="return validForm()">
+        <h1>Đăng kí</h1><br>
+        <p><i class="fa fa-user"></i> Nhập tên người dùng</p><br>
+        <input type="text" placeholder="Enter name" class="color" id="username" name="username"><br>
+        <p><i class="fas fa-envelope"></i><i class="fas fa-phone"></i> Nhập Email hoặc số điện thoại  </p><br>
+        <input type="text" placeholder="Enter email / phone" class="color" id="email" name="email"><br>
+        <p> <i class="fa fa-key"></i> mật khẩu</p><br>
+        <input type="password" placeholder="Enter password" class="color" id="password" name="password"><br>
+        <p> <i class="fa fa-key"></i> Nhập mật khẩu</p><br>
+        <input type="password" placeholder="Re-Enter password" class="color" id="nl_password" name="nl_password"><br>
+
+        <div class="checkbox">
+            <input type="checkbox" class="color">
+            Đồng ý đăng kí
+        </div><br>
+        <p id="message"></p>
+        <input type="submit" value="Đăng kí" class="submit"><br>
+        <a href="login.html" class="textdn">
+            Đăng nhập
+        </a>
+    </form>
+    <script>
+
+        var users =[];
+
+        function validForm() {
+            event.preventDefault();
+            var username = document.getElementById('username');
+            if (username.value == '') {
+                document.getElementById('message').innerText = "Vui lòng nhập tên người dùng!";
+                return false
+            }
+
+
+            var email = document.getElementById('email')
+            if (email.value == '') {
+                document.getElementById('message').innerText = "Vui lòng nhập Email!";
+                return false
+            }
+
+
+            var password = document.getElementById('password');
+            if (password.value == '') {
+                document.getElementById('message').innerText = "Vui lòng nhập mật khẩu!";
+                return false
+            }
+
+            var nl_password = document.getElementById('nl_password');
+            if (nl_password.value == '') {
+                document.getElementById('message').innerText = "Vui lòng nhập lại mật khẩu!";
+                return false
+            }
+            if(nl_password.value != password.value) {
+                document.getElementById('message').innerText = "Mật khẩu không khớp. Vui lòng nhập lại!";
+                return false
+            }
+            alert("Đăng Kí Thành Công");
+            const user = {
+                username: username.value,
+                email: email.value,
+                password: password.value
+            }
+
+            users.push(user);
+            console.log(users);
+            var json = JSON.stringify(users);
+            localStorage.setItem('user',json);
+        }
+    </script>
+</body>
+</html>
