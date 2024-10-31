@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Đăng Nhập";
+    Layout = null; // Không sử dụng layout mặc định
+}
+@model IEnumerable<KoiDeliveryOrderingSystem.Models.Order>
+
+<h2 class="text-center">Danh sách đơn hàng của bạn</h2>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Mã đơn hàng</th>
+            <th>Địa điểm xuất phát</th>
+            <th>Địa điểm giao</th>
+            <th>Khối lượng (kg)</th>
+            <th>Số lượng cá Koi</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.PickupLocation</td>
+                    <td>@order.DeliveryLocation</td>
+                    <td>@order.TotalWeight</td>
+                    <td>@order.TotalQuantity</td>
+                    <td>@order.Status</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Order", new { id = order.OrderId })" class="btn btn-info btn-sm">Xem</a>
+                        <a href="@Url.Action("Edit", "Order", new { id = order.OrderId })" class="btn btn-warning btn-sm">Sửa</a>
+                        <a href="@Url.Action("Delete", "Order", new { id = order.OrderId })" class="btn btn-danger btn-sm">Xóa</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7" class="text-center">Không có đơn hàng nào để hiển thị.</td>
+            </tr>
+        }
+    </tbody>
+</table>

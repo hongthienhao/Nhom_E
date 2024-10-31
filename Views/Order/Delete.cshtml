@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Đăng Nhập";
+    Layout = null; // Không sử dụng layout mặc định
+}
+@model KoiDeliveryOrderingSystem.Models.Order
+
+<h2 class="text-center">Xóa đơn hàng</h2>
+
+<p>Bạn có chắc chắn muốn xóa đơn hàng này?</p>
+
+<p><strong>Mã đơn hàng:</strong> @Model.OrderId</p>
+<p><strong>Địa điểm xuất phát:</strong> @Model.PickupLocation</p>
+<p><strong>Địa điểm giao:</strong> @Model.DeliveryLocation</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="OrderId" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
