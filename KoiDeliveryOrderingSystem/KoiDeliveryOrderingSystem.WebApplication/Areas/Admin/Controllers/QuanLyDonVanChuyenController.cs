@@ -1,18 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
-// Đảm bảo bạn đã thêm namespace đúng
 using System.Linq;
-using KoiDeliveryOrderingSystem.WebApplication.Data;
+using KoiDeliveryOrderingSystem.Repositories; // Sử dụng đúng namespace chứa HTQLKoiContext và Order
 
 namespace KoiDeliveryOrderingSystem.WebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class QuanLyDonVanChuyenController : Controller
     {
-        private readonly HtqlkoiContext _context;
+        private readonly HTQLKoiContext _context;
 
-        public QuanLyDonVanChuyenController(HtqlkoiContext context)
+        public QuanLyDonVanChuyenController(HTQLKoiContext context)
         {
             _context = context;
         }

@@ -1,77 +1,73 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using KoiDeliveryOrderingSystem.WebApplication.Data;
-using Microsoft.AspNetCore.Mvc;
-using KoiDeliveryOrderingSystem.Models;
-using ModelsOrder = KoiDeliveryOrderingSystem.Models.Order;
-using ModelsOrderDetail = KoiDeliveryOrderingSystem.Models.OrderDetail;
+﻿using Microsoft.AspNetCore.Mvc;
+using KoiDeliveryOrderingSystem.Services.Interfaces;
+using KoiDeliveryOrderingSystem.Repositories;
+using System.Threading.Tasks;
 
 namespace KoiDeliveryOrderingSystem.WebApplication.Controllers
 {
     public class OrderController : Controller
     {
-        private readonly HtqlkoiContext _context;
+        private readonly IOrderService _orderService;
 
-        public OrderController(HtqlkoiContext context)
+        public OrderController(IOrderService orderService)
         {
-            _context = context;
+            _orderService = orderService;
         }
 
         [HttpGet]
-        public IActionResult CreateOrder()
+        public IActionResult Create()
         {
-            // Để người dùng chọn dịch vụ
-            ViewBag.Services = _context.Services.ToList();
             return View();
         }
 
         [HttpPost]
-        public IActionResult CreateOrder(ModelsOrder order, List<ModelsOrderDetail> orderDetails)
+        public async Task<IActionResult> Create(Order order)
         {
-            if (ModelState.IsValid)
+            int userId = HttpContext.Session.GetInt32("UserId") ?? 0; // Lấy customer_id từ session
+
+            if (userId == 0)
             {
-                // Chuyển đổi ModelsOrder thành Data.Order trước khi thêm vào DbContext
-                var dataOrder = new KoiDeliveryOrderingSystem.WebApplication.Data.Order
-                {
-                    CustomerId = order.CustomerId,
-                    PickupLocation = order.PickupLocation,
-                    DeliveryLocation = order.DeliveryLocation,
-                    ShippingMethod = order.ShippingMethod,
-                    TotalWeight = order.TotalWeight,
-                    TotalQuantity = order.TotalQuantity,
-                    AdditionalServices = order.AdditionalServices,
-                    OrderDate = order.OrderDate,
-                    Status = order.Status
-                };
-
-                // Lưu đơn hàng vào bảng Orders
-                _context.Orders.Add(dataOrder);
-                _context.SaveChanges();
-
-                // Lưu từng chi tiết đơn hàng vào bảng OrderDetails
-                foreach (var detail in orderDetails)
-                {
-                    var dataOrderDetail = new KoiDeliveryOrderingSystem.WebApplication.Data.OrderDetail
-                    {
-                        OrderId = dataOrder.OrderId,
-                        KoiFishType = detail.KoiFishType,
-                        Quantity = detail.Quantity,
-                        Weight = detail.Weight
-                    };
-                    _context.OrderDetails.Add(dataOrderDetail);
-                }
-                _context.SaveChanges();
-
-                return RedirectToAction("ConfirmOrder");
+                return RedirectToAction("Login", "Account");
             }
 
-            // Nếu ModelState không hợp lệ, trả về view để người dùng có thể sửa đổi
-            return View(order);
+            order.CustomerId = userId;  // Gán customer_id
+            order.OrderDate = DateTime.Now;
+            order.Status = "Pending"; // Trạng thái ban đầu của đơn hàng
+            order.TotalPrice = CalculateTotalPrice(order); // Hàm tính tổng giá trị đơn hàng
+
+            await _orderService.AddOrderAsync(order);
+
+            return RedirectToAction("Index");
         }
 
-        public IActionResult ConfirmOrder()
+        private decimal CalculateTotalPrice(Order order)
         {
-            return View();
+            // Giả sử có logic để tính tổng giá trị đơn hàng dựa trên các chi tiết hoặc dịch vụ
+            return 1000000; // Giá trị ví dụ
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            int userId = HttpContext.Session.GetInt32("UserId") ?? 0;
+            if (userId == 0)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var orders = await _orderService.GetOrdersByCustomerIdAsync(userId);
+            return View(orders);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var order = await _orderService.GetOrderByIdAsync(id);
+            if (order == null)
+            {
+                return NotFound();
+            }
+            return View(order);
         }
     }
 }

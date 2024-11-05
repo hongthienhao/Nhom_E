@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KoiDeliveryOrderingSystem.Respositories\KoiDeliveryOrderingSystem.Respositories.csproj" />
+    <ProjectReference Include="..\KoiDeliveryOrderingSystem.Respositories\KoiDeliveryOrderingSystem.Repositories.csproj" />
     <ProjectReference Include="..\KoiDeliveryOrderingSystem.Services\KoiDeliveryOrderingSystem.Services.csproj" />
   </ItemGroup>
 
@@ -32,6 +32,7 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Delivering Staff\" />
     <Folder Include="Areas\Sales Staff\" />
+    <Folder Include="Controllers\" />
     <Folder Include="wwwroot\Assets\customer\" />
     <Folder Include="wwwroot\customer\" />
   </ItemGroup>

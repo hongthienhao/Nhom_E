@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj": {}
+    "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj": {}
   },
   "projects": {
-    "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj": {
+    "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj",
+        "projectUniqueName": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj",
         "projectName": "KoiDeliveryOrderingSystem.Respositories",
-        "projectPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj",
+        "projectPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\obj\\",
+        "outputPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

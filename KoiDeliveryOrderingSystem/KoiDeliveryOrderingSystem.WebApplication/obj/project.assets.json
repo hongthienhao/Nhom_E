@@ -3142,7 +3142,7 @@
           }
         }
       },
-      "KoiDeliveryOrderingSystem.Respositories/1.0.0": {
+      "KoiDeliveryOrderingSystem.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -3150,17 +3150,17 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
         },
         "compile": {
-          "bin/placeholder/KoiDeliveryOrderingSystem.Respositories.dll": {}
+          "bin/placeholder/KoiDeliveryOrderingSystem.Repositories.dll": {}
         },
         "runtime": {
-          "bin/placeholder/KoiDeliveryOrderingSystem.Respositories.dll": {}
+          "bin/placeholder/KoiDeliveryOrderingSystem.Repositories.dll": {}
         }
       },
       "KoiDeliveryOrderingSystem.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "KoiDeliveryOrderingSystem.Respositories": "1.0.0",
+          "KoiDeliveryOrderingSystem.Repositories": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
         },
@@ -8484,10 +8484,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "KoiDeliveryOrderingSystem.Respositories/1.0.0": {
+    "KoiDeliveryOrderingSystem.Repositories/1.0.0": {
       "type": "project",
-      "path": "../KoiDeliveryOrderingSystem.Respositories/KoiDeliveryOrderingSystem.Respositories.csproj",
-      "msbuildProject": "../KoiDeliveryOrderingSystem.Respositories/KoiDeliveryOrderingSystem.Respositories.csproj"
+      "path": "../KoiDeliveryOrderingSystem.Respositories/KoiDeliveryOrderingSystem.Repositories.csproj",
+      "msbuildProject": "../KoiDeliveryOrderingSystem.Respositories/KoiDeliveryOrderingSystem.Repositories.csproj"
     },
     "KoiDeliveryOrderingSystem.Services/1.0.0": {
       "type": "project",
@@ -8497,7 +8497,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "KoiDeliveryOrderingSystem.Respositories >= 1.0.0",
+      "KoiDeliveryOrderingSystem.Repositories >= 1.0.0",
       "KoiDeliveryOrderingSystem.Services >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
       "Microsoft.AspNetCore.Session >= 2.2.0",
@@ -8514,11 +8514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
+      "projectUniqueName": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
       "projectName": "KoiDeliveryOrderingSystem.WebApplication",
-      "projectPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
+      "projectPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\obj\\",
+      "outputPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8536,11 +8536,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj": {
-              "projectPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj"
+            "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj": {
+              "projectPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj"
             },
-            "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj": {
-              "projectPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj"
+            "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj": {
+              "projectPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj"
             }
           }
         }

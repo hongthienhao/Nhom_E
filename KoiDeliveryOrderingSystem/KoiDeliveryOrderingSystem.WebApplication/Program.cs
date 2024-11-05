@@ -1,25 +1,27 @@
-﻿using KoiDeliveryOrderingSystem.WebApplication.Data;
-using KoiDeliveryOrderingSystem.Respositories; // Thêm namespace của repository
-using KoiDeliveryOrderingSystem.Services; // Thêm namespace của service
+﻿
+using KoiDeliveryOrderingSystem.Repositories;
+using KoiDeliveryOrderingSystem.Repositories.Implementations;
+using KoiDeliveryOrderingSystem.Repositories.Interfaces;
+using KoiDeliveryOrderingSystem.Services;
+using KoiDeliveryOrderingSystem.Services.Implementations;
+using KoiDeliveryOrderingSystem.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-
-// Đăng ký DbContext cho Entity Framework Core
-builder.Services.AddDbContext<HtqlkoiContext>(options =>
+// Cấu hình DbContext cho Entity Framework Core với SQL Server
+builder.Services.AddDbContext<HTQLKoiContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Deliverykoi"));
 });
 
-// Đăng ký các lớp Repository và Service vào DI container
-// Ví dụ: nếu bạn có `OrderRepository` và `OrderService`, bạn sẽ thêm như sau:
-//builder.Services.AddScoped<OrderRepository>();
-//builder.Services.AddScoped<OrderService>();
+// Thêm dịch vụ cho các Repository và Service vào DI container (Dependency Injection)
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
-// Thêm Session vào DI container
+
+// Thêm dịch vụ cho Session
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian session hết hạn
@@ -27,9 +29,12 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+// Thêm các dịch vụ cho MVC
+builder.Services.AddControllersWithViews();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Kiểm tra môi trường để cấu hình pipeline xử lý lỗi
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -41,25 +46,19 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// Kích hoạt Session
+// Kích hoạt Session trong pipeline
 app.UseSession();
 
 // Kích hoạt Authorization (nếu cần)
 app.UseAuthorization();
 
-// Cấu hình các route cho Controller và Area
-app.UseEndpoints(endpoints =>
-{
-    // Route cho Area (nếu có)
-    endpoints.MapControllerRoute(
-        name: "areas",
-        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-    );
+// Cấu hình các route cho ứng dụng
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
-    // Route mặc định
-    endpoints.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
-});
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Account}/{action=Login}/{id?}");
 
 app.Run();

@@ -1,19 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using KoiDeliveryOrderingSystem.WebApplication.Data;
+using KoiDeliveryOrderingSystem.Repositories; // Namespace cho HTQLKoiContext và User
 
 namespace KoiDeliveryOrderingSystem.WebApplication.Controllers
 {
     public class UsersController : Controller
     {
-        private readonly HtqlkoiContext _context;
+        private readonly HTQLKoiContext _context;
 
-        public UsersController(HtqlkoiContext context)
+        public UsersController(HTQLKoiContext context)
         {
             _context = context;
         }
@@ -49,15 +47,13 @@ namespace KoiDeliveryOrderingSystem.WebApplication.Controllers
         }
 
         // POST: Users/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,Name,Email,Password,Phone,Address,Role,CreatedAt,UpdatedAt")] User user)
+        public async Task<IActionResult> Create([Bind("UserId,Name,Email,Password,Phone,Address,RoleId,CreatedAt,UpdatedAt")] User user)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(user);
+                _context.Users.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -81,11 +77,9 @@ namespace KoiDeliveryOrderingSystem.WebApplication.Controllers
         }
 
         // POST: Users/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("UserId,Name,Email,Password,Phone,Address,Role,CreatedAt,UpdatedAt")] User user)
+        public async Task<IActionResult> Edit(int id, [Bind("UserId,Name,Email,Password,Phone,Address,RoleId,CreatedAt,UpdatedAt")] User user)
         {
             if (id != user.UserId)
             {

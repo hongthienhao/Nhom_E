@@ -1,214 +1,258 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\",
+  "WorkspaceRootPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\htqlkoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\htqlkoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\koideliveryorderingsystem.webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\koideliveryorderingsystem.webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|solutionrelative:koideliveryorderingsystem.services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.services\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|solutionrelative:koideliveryorderingsystem.services\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\implementations\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\implementations\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\order\\createorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\order\\createorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.services\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.services\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|solutionrelative:koideliveryorderingsystem.services\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\views\\home\\quanlydonvanchuyen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\views\\home\\quanlydonvanchuyen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\quanlydonvanchuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\quanlydonvanchuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\htqlkoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\htqlkoicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\employeepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\employeepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\models\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\models\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|solutionrelative:koideliveryorderingsystem.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\delivery\\updatestatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\delivery\\updatestatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\delivery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\delivery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\employeepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\employeepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\quanlydonvanchuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\quanlydonvanchuyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\sql\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.services\\koideliveryorderingsystem.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|solutionrelative:koideliveryorderingsystem.services\\koideliveryorderingsystem.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\deliverystatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\deliverystatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\servicepricing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\servicepricing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\data\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\data\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\koideliveryorderingsystem.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|solutionrelative:koideliveryorderingsystem.respositories\\koideliveryorderingsystem.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\user\\managepermissions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\user\\managepermissions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\quanlibanggia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\quanlibanggia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Data\\HTQLKoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiDeliveryOrderingSystem.WebApplication\\Data\\HTQLKoiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\admin\\views\\home\\quanlydonvanchuyen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\admin\\views\\home\\quanlydonvanchuyen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\koideliveryorderingsystem.webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\koideliveryorderingsystem.webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\new folder\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -218,119 +262,765 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\SignUp.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\SignUp.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\SignUp.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T07:17:34.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:13:35.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "signup.html",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwFEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-26T16:34:19.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\User.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\User.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\User.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwA0AAAAoAAAAAAAAAA==",
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IOrderService.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:30:26.501Z",
+              "WhenOpened": "2024-11-03T05:58:15.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:15:57.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Create.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:45:46.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:48:45.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:48:16.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\OrderService.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\OrderService.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\OrderService.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Services\\Implementations\\OrderService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T05:58:44.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T05:45:03.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\OrderRepository.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\OrderRepository.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\OrderRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T05:54:54.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Services\\OrderService.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Services\\OrderService.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Services\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T12:04:39.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Details.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T12:37:24.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
               "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T11:32:27.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T16:01:08.317Z",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:18:45.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Delete.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Delete.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Delete.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:47:26.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:35:45.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:09:25.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\ErrorViewModel.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\ErrorViewModel.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T06:59:05.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T06:55:07.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T14:50:38.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T14:50:36.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:09:30.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T07:26:37.635Z",
+              "WhenOpened": "2024-11-02T12:38:43.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "login.html",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
-              "ViewState": "AgIAACgAAAAAAAAAAAAiwEMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-27T05:28:24.551Z",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:19:59.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
+              "Title": "HTQLKoiContext.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\HTQLKoiContext.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\HTQLKoiContext.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\HTQLKoiContext.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\HTQLKoiContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:33:21.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T14:34:35.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\OrderDetail.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\OrderDetail.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:35:01.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Edit.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Edit.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:46:19.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:22:49.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Create.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T12:28:04.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T12:38:05.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T12:30:29.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "QuanLyDonVanChuyenController.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\QuanLyDonVanChuyenController.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\QuanLyDonVanChuyenController.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\QuanLyDonVanChuyenController.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\QuanLyDonVanChuyenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:46:58.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\User.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\User.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\User.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\User.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:36:01.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Feedback.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Feedback.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Feedback.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:34:06.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T14:50:08.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Login\\Login.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T12:01:36.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:34:44.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "KoiDeliveryOrderingSystem.Services.csproj",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-02T00:17:20.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DeliveryStatusHistory.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\DeliveryStatusHistory.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\DeliveryStatusHistory.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\DeliveryStatusHistory.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\DeliveryStatusHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:34:24.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delivery.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:57:46.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-02T10:30:29.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Transaction.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Transaction.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Transaction.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:35:51.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ServicePricing.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\ServicePricing.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\ServicePricing.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\ServicePricing.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\ServicePricing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:35:44.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Service.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Service.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Service.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:35:36.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\RolePermission.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\RolePermission.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\RolePermission.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\RolePermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:35:29.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Role.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Role.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:35:22.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Permission.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Permission.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Permission.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:35:10.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "KoiDeliveryOrderingSystem.Repositories.csproj",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T12:06:48.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T16:32:03.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ManagePermissions.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\User\\ManagePermissions.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\User\\ManagePermissions.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\User\\ManagePermissions.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\User\\ManagePermissions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T14:50:33.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\User\\Profile.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T14:50:32.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:28:42.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "quanlibanggia.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\quanlibanggia.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\quanlibanggia.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\quanlibanggia.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\quanlibanggia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T14:28:08.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:38:41.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAEgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:29:05.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T11:28:26.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T11:28:23.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "HTQLKoiContext.cs",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Data\\HTQLKoiContext.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Data\\HTQLKoiContext.cs",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Data\\HTQLKoiContext.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Data\\HTQLKoiContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:53:08.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "QuanLyDonVanChuyen.cshtml",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\QuanLyDonVanChuyen.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\QuanLyDonVanChuyen.cshtml",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\QuanLyDonVanChuyen.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\QuanLyDonVanChuyen.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T15:38:28.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
               "Title": "login.css",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
               "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
               "ViewState": "AgIAAC0AAAAAAAAAAAAiwEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -339,521 +1029,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HtqlkoiContext.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\HtqlkoiContext.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\HtqlkoiContext.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\HtqlkoiContext.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\HtqlkoiContext.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:25:28.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KoiDeliveryOrderingSystem.WebApplication.csproj",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-25T16:27:16.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Index.cshtml",
+              "DocumentIndex": 59,
+              "Title": "signup.html",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T16:39:52.718Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-26T16:34:19.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:37:18.477Z"
+              "DocumentIndex": 60,
+              "Title": "login.html",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwEMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-27T05:28:24.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 61,
+              "Title": "KoiDeliveryOrderingSystem.WebApplication.csproj",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-25T16:27:16.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
               "Title": "about.html",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\about.html",
+              "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\about.html",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\about.html",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\about.html",
+              "ToolTip": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\about.html",
               "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\about.html",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-26T16:40:15.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:43:32.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T16:33:49.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T16:34:04.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Services\\OrderService.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Services\\OrderService.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Services\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:08:18.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateOrder.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\CreateOrder.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\CreateOrder.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\CreateOrder.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\CreateOrder.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T09:39:54.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA8wCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:25:53.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrdersController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAwwHkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:39:41.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Transaction.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Transaction.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:42:12.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Service.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Service.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Service.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:41:58.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\OrderDetail.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\OrderDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:29:57.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Order.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Order.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:27:17.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Index.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Index.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T09:31:20.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Edit.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Edit.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Edit.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Edit.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T09:31:15.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Details.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Details.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Details.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Details.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T09:31:06.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Delete.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Delete.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Delete.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Delete.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T09:31:01.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Create.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Create.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Create.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Orders\\Create.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T09:30:56.241Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "QuanLyDonVanChuyenController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\QuanLyDonVanChuyenController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\QuanLyDonVanChuyenController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\QuanLyDonVanChuyenController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\QuanLyDonVanChuyenController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:46:58.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "QuanLyDonVanChuyen.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\QuanLyDonVanChuyen.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\QuanLyDonVanChuyen.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\QuanLyDonVanChuyen.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\QuanLyDonVanChuyen.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T15:38:28.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:40:33.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Feedback.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Feedback.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Feedback.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Feedback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:40:41.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Invoice.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Invoice.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Invoice.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:38:57.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "EmployeePermission.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\EmployeePermission.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\EmployeePermission.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\EmployeePermission.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\EmployeePermission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:40:29.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Delivery.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Delivery.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Delivery.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Models\\Delivery.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Models\\Delivery.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:27:14.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T11:28:23.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T11:29:05.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T11:28:42.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAIBJwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T11:38:41.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T11:28:26.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Class1.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Class1.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Class1.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Services\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:58:35.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Class1.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Class1.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Class1.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:59:01.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "UpdateStatus.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Delivery\\UpdateStatus.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Delivery\\UpdateStatus.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Delivery\\UpdateStatus.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Delivery\\UpdateStatus.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T13:32:17.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Delivery\\Index.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Delivery\\Index.cshtml",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Delivery\\Index.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Delivery\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T13:32:14.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAwwEsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:29:45.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:28:48.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:25:41.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "EmployeePermission.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\EmployeePermission.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\EmployeePermission.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\EmployeePermission.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\EmployeePermission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:25:23.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Delivery.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T13:25:17.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T11:27:02.821Z"
+              "WhenOpened": "2024-10-26T16:40:15.907Z",
+              "EditorCaption": ""
             }
           ]
         }

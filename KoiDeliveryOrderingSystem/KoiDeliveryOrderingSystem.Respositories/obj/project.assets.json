@@ -4045,11 +4045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj",
-      "projectName": "KoiDeliveryOrderingSystem.Respositories",
-      "projectPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Respositories.csproj",
+      "projectUniqueName": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj",
+      "projectName": "KoiDeliveryOrderingSystem.Repositories",
+      "projectPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\SQL\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\obj\\",
+      "outputPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

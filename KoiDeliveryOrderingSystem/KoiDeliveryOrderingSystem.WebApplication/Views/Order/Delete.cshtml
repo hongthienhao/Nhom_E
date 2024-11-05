@@ -1,0 +1,19 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.Order
+
+<h2>Xóa Đơn hàng</h2>
+
+<p>Bạn có chắc chắn muốn xóa đơn hàng này?</p>
+<div>
+    <strong>Địa điểm Lấy hàng:</strong> @Model.PickupLocation <br />
+    <strong>Địa điểm Giao hàng:</strong> @Model.DeliveryLocation <br />
+    <strong>Phương thức Vận chuyển:</strong> @Model.ShippingMethod <br />
+    <strong>Tổng Khối lượng:</strong> @Model.TotalWeight <br />
+    <strong>Tổng Số lượng:</strong> @Model.TotalQuantity <br />
+    <strong>Trạng thái:</strong> @Model.Status
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="OrderId" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
