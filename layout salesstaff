@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Nhân Viên</title>
+
+    <!-- Thêm thẻ <style> để chứa mã CSS trực tiếp -->
+    <style>
+        body {
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Đầu trang */
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+            header h1 {
+                margin-bottom: 0.5em;
+            }
+
+            header nav ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 2em;
+            }
+
+                header nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                    header nav ul li a:hover {
+                        text-decoration: underline;
+                    }
+
+        /* Nội dung chính */
+        main {
+            padding: 2em;
+        }
+
+        /* Bảng danh sách đơn hàng */
+        table {
+            width: 100%;
+            margin: 1em 0;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            table th, table td {
+                padding: 1em;
+                border: 1px solid #ddd;
+                text-align: left;
+            }
+
+            table th {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+        /* Kiểu biểu mẫu */
+        form {
+            background-color: #fff;
+            padding: 2em;
+            margin: 1em 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: grid;
+            gap: 1em;
+            max-width: 400px;
+            border-radius: 8px;
+        }
+
+            form label {
+                font-weight: bold;
+            }
+
+            form input, form select, form button {
+                padding: 0.5em;
+                width: 100%;
+                font-size: 1em;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+
+            form button {
+                background-color: #4CAF50;
+                color: #fff;
+                cursor: pointer;
+            }
+
+                form button:hover {
+                    background-color: #45a049;
+                }
+
+        /* Chức năng Admin */
+        #admin-functions ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #admin-functions li {
+            margin: 0.5em 0;
+        }
+
+        #admin-functions button {
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+            #admin-functions button:hover {
+                background-color: #45a049;
+            }
+
+        /* Chân trang */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            margin-top: 2em;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quản Lý Đơn Hàng</h1>
+        <nav>
+            <ul>
+                <li><a href="#orders">Danh Sách Đơn Hàng</a></li>
+                <li><a href="#update-status">Cập Nhật Trạng Thái</a></li>
+                <li><a href="#admin-functions">Chức Năng Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Phần xem danh sách đơn hàng -->
+        <section id="orders">
+            <h2>Danh Sách Đơn Hàng</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID Đơn Hàng</th>
+                        <th>Tên Khách Hàng</th>
+                        <th>Ngày Đặt</th>
+                        <th>Trạng Thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Nguyễn Văn A</td>
+                        <td>01/11/2024</td>
+                        <td>Đang xử lý</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Trần Thị B</td>
+                        <td>02/11/2024</td>
+                        <td>Đã hoàn thành</td>
+                    </tr>
+                    <!-- Thêm nhiều dòng khác nếu cần -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Phần cập nhật trạng thái đơn hàng -->
+        <section id="update-status">
+            <h2>Cập Nhật Trạng Thái Đơn Hàng</h2>
+            <form id="updateForm">
+                <label for="orderId">ID Đơn Hàng:</label>
+                <input type="text" id="orderId" name="orderId" required>
+
+                <label for="status">Trạng Thái:</label>
+                <select id="status" name="status" required>
+                    <option value="processing">Đang xử lý</option>
+                    <option value="completed">Đã hoàn thành</option>
+                </select>
+
+                <button type="submit">Cập Nhật</button>
+            </form>
+        </section>
+
+        <!-- Phần chức năng do Admin phân quyền -->
+        <section id="admin-functions">
+            <h2>Chức Năng Admin</h2>
+            <p>Các chức năng mà Admin đã phân quyền cho nhân viên sẽ hiển thị ở đây.</p>
+            <ul>
+                <li><button>Chức năng 1</button></li>
+                <li><button>Chức năng 2</button></li>
+                <li><button>Chức năng 3</button></li>
+                <!-- Thêm nhiều chức năng khác nếu cần -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KoiDelivery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
