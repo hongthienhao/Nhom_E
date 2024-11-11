@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Danh sách phản hồi";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<KoiDeliveryOrderingSystem.Repositories.Feedback>
+
+<h2 class="text-primary mb-4">Danh sách phản hồi</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Khách hàng</th>
+                <th>Dịch vụ</th>
+                <th>Đánh giá</th>
+                <th>Bình luận</th>
+                <th>Trạng thái</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var feedback in Model)
+            {
+                <tr>
+                    <td>@feedback.FeedbackId</td>
+                    <td>@feedback.User.Name</td>
+                    <td>@feedback.Service.Name</td>
+                    <td class="text-center"><strong>@feedback.Rating</strong></td>
+                    <td>@feedback.Comment</td>
+                    <td class="text-center">
+                        @if (feedback.Resolved ?? false)
+                        {
+                            <span class="badge bg-success">Đã xử lý</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-warning text-dark">Chưa xử lý</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <!-- Nút Chi tiết -->
+                        <a href="/Admin/Feedback/Details/@feedback.FeedbackId" class="btn btn-info btn-sm me-2">
+                            <i class="fas fa-eye"></i> Chi tiết
+                        </a>
+
+                        <!-- Nút Xóa -->
+                        <form action="/Admin/Feedback/Delete/@feedback.FeedbackId" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa?');">
+                                <i class="fas fa-trash-alt"></i> Xóa
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

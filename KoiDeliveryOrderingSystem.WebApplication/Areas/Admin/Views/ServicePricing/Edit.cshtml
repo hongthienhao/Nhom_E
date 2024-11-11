@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Chỉnh Sửa Bảng Giá";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model KoiDeliveryOrderingSystem.Repositories.ServicePricing
+
+@{
+    ViewData["Title"] = "Chỉnh Sửa Bảng Giá";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-primary">Chỉnh Sửa Bảng Giá</h2>
+
+<form method="post" asp-action="Edit">
+    <input type="hidden" asp-for="PricingId" />
+    <div class="form-group mb-3">
+        <label for="ServiceId">Dịch Vụ</label>
+        <select asp-for="ServiceId" asp-items="ViewBag.Services" class="form-control" disabled>
+            <option value="">-- Chọn dịch vụ --</option>
+        </select>
+    </div>
+    <div class="form-group mb-3">
+        <label for="Price">Giá</label>
+        <input asp-for="Price" type="number" step="0.01" class="form-control" placeholder="Nhập giá dịch vụ" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="EffectiveDate">Ngày Áp Dụng</label>
+        <input asp-for="EffectiveDate" type="date" class="form-control" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="Conditions">Ghi Chú</label>
+        <textarea asp-for="Conditions" class="form-control" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu Thay Đổi</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

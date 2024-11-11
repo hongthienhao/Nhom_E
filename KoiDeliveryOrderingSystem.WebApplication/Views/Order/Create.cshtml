@@ -1,0 +1,33 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.Order
+@{
+    Layout = null;
+}
+<h2>Tạo Đơn Hàng</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Địa điểm lấy hàng:</label>
+        <input asp-for="PickupLocation" class="form-control" />
+    </div>
+    <div>
+        <label>Địa điểm giao hàng:</label>
+        <input asp-for="DeliveryLocation" class="form-control" />
+    </div>
+    <div>
+        <label>Phương thức vận chuyển:</label>
+        <select asp-for="ShippingMethod" class="form-control">
+            <option value="Hàng không">Hàng không</option>
+            <option value="Đường biển">Đường biển</option>
+            <option value="Đường bộ">Đường bộ</option>
+        </select>
+    </div>
+    <div>
+        <label>Khối lượng (kg):</label>
+        <input asp-for="TotalWeight" class="form-control" type="number" />
+    </div>
+    <div>
+        <label>Số lượng:</label>
+        <input asp-for="TotalQuantity" class="form-control" type="number" /> 
+    </div>
+    <button type="submit" class="btn btn-primary">Đặt hàng</button>
+</form>

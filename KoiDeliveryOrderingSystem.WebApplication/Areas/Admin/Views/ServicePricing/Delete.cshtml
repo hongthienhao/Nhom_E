@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Xóa Bảng Giá";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model KoiDeliveryOrderingSystem.Repositories.ServicePricing
+
+@{
+    ViewData["Title"] = "Xóa Bảng Giá";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-danger">Xóa Bảng Giá</h2>
+
+<p>Bạn có chắc chắn muốn xóa bảng giá này?</p>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Tên Dịch Vụ</th>
+        <td>@Model.Service.Name</td>
+    </tr>
+    <tr>
+        <th>Giá</th>
+        <td>@Model.Price.ToString("C")</td>
+    </tr>
+    <tr>
+        <th>Ngày Áp Dụng</th>
+        <td>@Model.EffectiveDate?.ToString("dd/MM/yyyy")</td>
+    </tr>
+    <tr>
+        <th>Ghi Chú</th>
+        <td>@Model.Conditions</td>
+    </tr>
+</table>
+
+<form method="post" asp-action="Delete">
+    <input type="hidden" asp-for="PricingId" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

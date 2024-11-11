@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Đăng Ký";
+    Layout = null; // Đảm bảo không sử dụng layout mặc định
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="icon" href="~/img/logoweb.jpg" type="image/png">
+    <link rel="stylesheet" href="~/css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <form class="signup" asp-action="SignUp" asp-controller="Account" method="post" onsubmit="return validateForm()">
+        <h1>Đăng ký</h1><br>
+
+        <p><i class="fa fa-user"></i> Nhập tên người dùng</p><br>
+        <input type="text" placeholder="Enter name" class="color" id="username" name="username" required><br>
+
+        <p><i class="fas fa-envelope"></i> Nhập Email</p><br>
+        <input type="email" placeholder="Enter email" class="color" id="email" name="email" required><br>
+
+        <p><i class="fa fa-key"></i> Mật khẩu</p><br>
+        <input type="password" placeholder="Enter password" class="color" id="password" name="password" required><br>
+
+        <p><i class="fa fa-key"></i> Nhập lại mật khẩu</p><br>
+        <input type="password" placeholder="Re-Enter password" class="color" id="nl_password" name="confirmPassword" required><br>
+
+        <div class="checkbox">
+            <input type="checkbox" class="color" id="agree_terms" required>
+            Đồng ý đăng ký
+        </div><br>
+
+        <p id="message" style="color: red;"></p> <!-- Thông báo lỗi từ hàm validateForm -->
+        @if (TempData["SignUpError"] != null)
+        {
+            <div class="alert alert-danger mt-3">
+                @TempData["SignUpError"]
+            </div>
+        }
+
+        <input type="submit" value="Đăng ký" class="submit"><br>
+        <a href="/Account/Login" class="textdn">Đăng nhập</a>
+    </form>
+
+    <script>
+        function validateForm() {
+            const messageElem = document.getElementById('message');
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('nl_password').value;
+            const agreeTerms = document.getElementById('agree_terms').checked;
+
+            if (!username) {
+                messageElem.innerText = "Vui lòng nhập tên người dùng!";
+                return false;
+            }
+
+            if (!email) {
+                messageElem.innerText = "Vui lòng nhập Email!";
+                return false;
+            }
+
+            if (!password) {
+                messageElem.innerText = "Vui lòng nhập mật khẩu!";
+                return false;
+            }
+
+            if (!confirmPassword) {
+                messageElem.innerText = "Vui lòng nhập lại mật khẩu!";
+                return false;
+            }
+
+            if (password !== confirmPassword) {
+                messageElem.innerText = "Mật khẩu không khớp. Vui lòng nhập lại!";
+                return false;
+            }
+
+            if (!agreeTerms) {
+                messageElem.innerText = "Vui lòng đồng ý với các điều khoản đăng ký.";
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>
