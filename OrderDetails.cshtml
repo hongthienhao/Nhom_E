@@ -1,39 +1,22 @@
 ﻿@{
-    ViewData["Title"] = "Danh Sách Đơn Hàng";
+    ViewData["Title"] = "Chi Tiết Đơn Hàng";
     Layout = "~/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml";
 }
 
 <link rel="stylesheet" href="~/css/deliveringStaff.css" />
 
 <div class="container">
-    <div class="form-container">
-        <h2 class="page-title">Danh Sách Đơn Hàng</h2>
-        <div class="card">
-            <div class="card-body">
-                <h5>Thông Tin Đơn Hàng</h5>
-                <p><strong>Tên Hàng:</strong> Đơn hàng 1</p>
-            </div>
-             <div class="text-right">
-                <a href="/DeliveringStaff/Home/OrderDetails?orderId={{ order.id }}" class="btn btn-primary">Xem Chi Tiết</a>
-            </div>
+    <h2 class="page-title">Chi Tiết Đơn Hàng</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5>Thông Tin Đơn Hàng</h5>
+            <p><strong>Mã Đơn Hàng:</strong> @Model.Id</p>
+            <p><strong>Tên Sản Phẩm:</strong> @Model.ProductName</p>
+            <p><strong>Tên Khách Hàng:</strong> @Model.CustomerName</p>
+            <p><strong>Địa Điểm Giao Hàng:</strong> @Model.Address</p>
+            <p><strong>Thời Gian Giao Hàng Dự Kiến:</strong> @Model.EstimatedDelivery</p>
+            <p><strong>Trạng Thái:</strong> @Model.Status</p>
         </div>
+        <a href="/DeliveringStaff/Home/OrderList" class="btn btn-secondary mt-3">Quay Lại Danh Sách</a>
     </div>
-        <div class="card">
-            <div class="card-body">
-                <h5>Thông Tin Đơn Hàng</h5>
-                <p><strong>Tên Hàng:</strong> Đơn hàng 2</p>
-            </div>
-             <div class="text-right">
-                <a href="/DeliveringStaff/Home/OrderDetails?orderId={{ order.id }}" class="btn btn-primary">Xem Chi Tiết</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5>Thông Tin Đơn Hàng</h5>
-                <p><strong>Tên Hàng:</strong> Đơn hàng 3</p>
-        </div>
-         <div class="text-right">
-                <a href="/DeliveringStaff/Home/OrderDetails?orderId={{ order.id }}" class="btn btn-primary">Xem Chi Tiết</a>
-            </div>
-    </div>
-
+</div>

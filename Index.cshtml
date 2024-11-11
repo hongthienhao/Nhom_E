@@ -1,7 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Dashboard";
-    Layout = "~/Areas/Customer/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Trang Chủ Nhân Viên Giao Hàng";
+    Layout = "~/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml";
 }
 
-<main>
-</main>
+<link rel="stylesheet" href="~/css/home.css" />
+
+<div class="container">
+    <h2 class="header">Trang Chủ Nhân Viên Giao Hàng</h2>
+    <p>Chào mừng đến với hệ thống quản lý giao hàng.</p>
+    
+    <div class="button-group" style="display: flex; flex-direction: column; gap: 10px;">
+        <a href="/DeliveringStaff/Home/OrderList" class="btn btn-primary">Xem Danh Sách Đơn Hàng</a>
+        <a href="/DeliveringStaff/Home/UpdateStatus" class="btn btn-secondary">Cập Nhật Trạng Thái Giao Hàng</a>
+        <a href="/Admin/Permissions" class="btn btn-warning">Chức Năng Phân Quyền Cho Admin</a>
+    </div>
+</div>

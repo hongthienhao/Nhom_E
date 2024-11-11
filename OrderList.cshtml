@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Danh Sách Đơn Hàng";
+    Layout = "~/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/deliveringStaff.css" />
+
+<div class="container">
+    <h2 class="page-title">Danh Sách Đơn Hàng</h2>
+    @foreach (var order in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5>Thông Tin Đơn Hàng</h5>
+                <p><strong>Mã Đơn Hàng:</strong> @order.Id</p>
+                <p><strong>Tên Sản Phẩm:</strong> @order.ProductName</p>
+                <p><strong>Trạng Thái:</strong> @order.Status</p>
+                <a href="/DeliveringStaff/Home/OrderDetails?orderId=@order.Id" class="btn btn-primary">
+                    Xem Chi Tiết
+                </a>
+            </div>
+        </div>
+    }
+    <a href="/DeliveringStaff/Home/Index" class="btn btn-secondary mt-3">Quay Lại </a>
+</div>
