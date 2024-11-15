@@ -1,0 +1,52 @@
+@{
+    Layout = null;  // Tắt layout cho view này
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hỗ trợ Dịch vụ Vận chuyển Cá Koi</title>
+    <link rel="stylesheet" href="~/css/Support.css">
+</head>
+<body>
+
+    <section id="support">
+        <div class="container">
+            <h1>Hỗ trợ Dịch vụ Vận chuyển Cá Koi</h1>
+            <p>Chúng tôi cam kết cung cấp dịch vụ vận chuyển cá Koi an toàn, nhanh chóng và tiện lợi. Dưới đây là một số thông tin và hỗ trợ bạn có thể tham khảo:</p>
+
+            <div class="support-options">
+                <div class="support-item">
+                    <h2>1. Câu hỏi thường gặp (FAQ)</h2>
+                    <p>Câu hỏi: "Dịch vụ vận chuyển cá Koi của các bạn có đảm bảo an toàn không?"</p>
+                    <p>Trả lời: "Chúng tôi sử dụng các phương tiện vận chuyển chuyên dụng và có kinh nghiệm để đảm bảo an toàn cho cá Koi trong suốt quá trình vận chuyển."</p>
+                    <a href="@Url.Action("FAQ", "Home")">Xem thêm câu hỏi thường gặp</a>
+                </div>
+              
+                
+
+                <div class="support-item">
+                    <h2>2. Chính sách bảo hành và hoàn tiền</h2>
+                    <p>Chúng tôi cung cấp chính sách bảo hành cho cá Koi trong quá trình vận chuyển. Nếu có bất kỳ sự cố nào xảy ra, chúng tôi sẽ hỗ trợ hoàn tiền hoặc thay thế cá.</p>
+                    <a href="@Url.Action("WarrantyPolicy", "Home")">Xem chi tiết chính sách bảo hành</a>
+                </div>
+
+                <div class="support-item">
+                    <h2>3. Liên hệ với bộ phận hỗ trợ</h2>
+                    <p>Nếu bạn gặp phải bất kỳ vấn đề nào trong quá trình sử dụng dịch vụ, vui lòng liên hệ với chúng tôi để được hỗ trợ kịp thời.</p>
+                    <p><strong>Email:</strong> support@koi-delivery.com</p>
+                    <p><strong>Điện thoại:</strong> 0123456789</p>
+                    <a href="/lien-he">Đến trang Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dịch vụ Vận chuyển Cá Koi</p>
+        
+    </footer>
+</body>
+</html>
