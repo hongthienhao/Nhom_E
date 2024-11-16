@@ -1,0 +1,238 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Airway</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>@ViewData["Title"] - KoiDelivery</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- Favicon -->
+    <link rel="icon" href="@Url.Content("~/img/logoweb.jpg")" type="image/png">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="@Url.Content("~/lib/animate/animate.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/lib/owlcarousel/assets/owl.carousel.min.css")" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="@Url.Content("~/css/bootstrap.min.css")" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="@Url.Content("~/css/style.css")" rel="stylesheet">
+    <link href="@Url.Content("~/css/style_new.css")" rel="stylesheet">
+</head>
+<body>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="/" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white">KoiDelivery</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="@Url.Action("Index", "Home")" class="nav-item nav-link active">Trang chủ</a>
+                <a href="https://localhost:7040/Order/Create" class="nav-item nav-link">Dịch vụ</a>
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block">
+                <a href="https://localhost:7040/Account/Login">
+                    <i class="fas fa-user login-icon" title="Đăng nhập"
+                       style="color: inherit; transition: color 0.3s; cursor: pointer;"
+                       onmouseover="this.style.color='#FF3E41'"
+                       onmouseout="this.style.color='inherit'"></i>
+                </a>
+            </h4>
+        </div>
+    </nav>
+    <div class="ck-content" lang="">
+        <h3 id="h3-0" class="scroll-mt-[95px]">
+            <span>
+                <span>
+                    <h2 id="ftoc-heading-1" class="ftwp-heading">Air Cargo là gì?</h2>
+                    <p>Air cargo là vận chuyển hàng hóa bằng đường hàng không hay còn gọi là vận chuyển hàng bằng máy bay. Đây là phương thức vận tải hàng hóa từ nơi này đến nơi khác bằng máy bay chở hàng chuyên dụng (Cargo Aircraft, hay Freighter), hoặc chở trong khoang bụng của máy bay hành khách (Passenger Plane).</p>
+                    <p>Vận chuyển hàng hóa bằng đường hàng không đã triển khai từ những năm 2012. Đến nay, tỳ trọng vận chuyển hàng hóa bằng máy bay vẫn chiếm tỷ trọng khá nhỏ trong tổng thể các phương tiện vận tải. Vậy tại sao vận chuyển hàng không lại ít được sử dụng như vậy?</p>
+                </span>
+            </span>
+        </h3>
+        
+                 
+            <p>Thông thường vận tải hàng không sẽ tính phí dựa trên cân nặng thực tế hoặc trọng lượng quy đổi, số khối. Giá trị nào lớn hơn thì phí cho đơn hàng sẽ dựa vào đó để tính.</p>
+            <ul>
+                <li>Công thức tính trọng lượng quy đổi: (Chiều dài x Chiều rộng x Chiều cao)(cm)/6000 =&nbsp; (Kgs).</li>
+                <li>Số khối (CBM) = (Chiều dài x Chiều rộng x Chiều cao)(m) x Số kiện.</li>
+            </ul>
+            <p>Theo vận chuyển đường hàng không 1CBM = 166,6 Kg ~ 167 Kg.</p>
+            <h2 id="ftoc-heading-2" class="ftwp-heading">Ưu nhược điểm của vận tải hàng không quốc tế</h2>
+            <p>Có 3 loại máy bay vận chuyển hàng hóa, bao gồm:</p>
+            <ul>
+                <li>Passenger Aircraft/ Passenger flight (PAX): máy bay vừa chở khách và chở hàng;</li>
+                <li>Air cargo charter (charter): Chuyến bay charter chuyên chở hàng theo yêu cầu.</li>
+                <li>Freighter (F)/Cargo Aircraft Only (CAO): máy bay chở hàng</li>
+            </ul>
+            <p>Tải trọng vận chuyển hàng hóa/chuyến bay tùy thuộc vào loại máy bay giới hạn khoảng 32 tấn.</p>
+            <p>Mỗi một phương thức vận tải sẽ có ưu nhược điểm riêng, cùng phân tích ưu nhược điểm vận tải hàng không.</p>
+            <h3 id="ftoc-heading-3" class="ftwp-heading">Ưu điểm vận chuyển đường hàng không</h3>
+            <p>Ưu điểm lớn nhất của vận tải hàng không đó là <strong>tốc độ giao nhận hàng nhanh nhất</strong> trong các phương thức. Như chúng ta đều biết máy bay có tốc độ cao nhất trong các tất cả các phương thức vận tải trên thế giới hiện nay. Trung bình tốc độ máy bay chở hàng hoặc chở khách rơi vào khoảng 800-1000km/h. So sánh với vận tốc phương tiện vận tải phổ biến khác là tàu biển (12-25 hải lý/giờ), tàu hỏa (60-80km/h), ôtô tải (60-120km/h).</p>
+            <p>+ Vận tải hàng không cũng có tính <strong>an toàn cao nhất</strong> trong các phương thức. Giảm thiểu tối đa tổn thất phát sinh do hàng đổ vỡ, hay trộm cắp vặt thường xảy ra ở phương tiện di chuyển bằng ô tô, tàu… Bạn có thể nghe trên đài báo, tivi thấy những vụ tai nạn xe tải, chìm tàu hoặc nước dính hàng hóa trên tàu.</p>
+            <p>+ <strong>Không bị cản trở bởi yếu tố địa hình</strong> như phương tiện vận chuyển bằng đường bộ hay <strong><a href="http://dhdlogistics.com/van-tai-duong-bien/">đường biển</a></strong>. Do đó, vận tải hàng không có khả năng kết nối được gần như tất cả các quốc gia trên thế giới, vượt qua mọi giới hạn đại dương hay núi non hiểm trở.</p>
+            <p>+ Phí bảo hiểm vận chuyển thấp hơn vì vận tải hàng không có ít rủi ro hơn các phương thức khác.</p>
+            <p>+ Phí lưu kho tối thiểu, vì đặc tính tốc độ xử lý thủ tục và vận chuyển hàng nhanh chóng.</p>
+            <p>Phía trên là những điểm lợi thế của vận tải hàng không, còn những hạn chế của phương thức vận tải này thế nào?</p>
+            <h3 id="ftoc-heading-4" class="ftwp-heading">Hạn chế khi vận tải đường hàng không</h3>
+            <p><strong>Giá cước cao</strong>: Đây là một điểm yếu chí mạng khi khách hàng phải quay lưng lựa chọn phương thức khác. Do vậy, vận tải đường hàng không chỉ phù hợp với những mặt hàng nhỏ nhẹ, cần gấp, hàng giá trị cao.</p>
+            <p><strong>Chỉ cận chuyển hàng nhẹ, nhỏ gọn</strong>: Vận chuyển hàng không thì không phù hợp với các loại hàng hóa cồng kềnh, trọng lượng lớn. Vì bị giới hạn nhiều hơn bởi kích thước của khoang chở hàng của máy bay.</p>
+            <p><strong>Chịu ảnh hưởng thời tiết</strong>: Việc ảnh hưởng của thời tiết khiến chuyến bay phải hoãn bay xảy ra ít, không ảnh hưởng nhiều đến hàng hóa.</p>
+            <h2 id="ftoc-heading-5" class="ftwp-heading">Những mặt hàng được phép vận tải hàng không quốc tế</h2>
+            <p>Hiện tại hoạt động vận chuyển hàng hóa bằng đường hàng không áp dụng nhiều loại hàng hóa:</p>
+            <p>+ Hàng thời trang: quần áo, giày dép, mũ nón, váy, túi xách, phụ kiện</p>
+            <p>+ Hàng gia dụng: xoong nồi, bếp điện, máy xay sinh tố, máy ép hoa quả,..</p>
+            <p>+ Hàng thực phẩm: thực phẩm khô, thực phẩm đông lạnh, bánh kẹo,</p>
+            <p>+ Mặt hàng nông sản: hoa quả, trái cây sấy khô, các loại hạt, cà phê,</p>
+            <p>+ Mặt hàng trang trí, đồ nội thất, quà tặng, đồ handmade,&#8230;</p>
+            <p>Cùng nhiều loại hàng hóa được phép vận chuyển bằng đường hàng không theo quy định hãng hàng không quốc tế.</p>
+            <h2 id="ftoc-heading-6" class="ftwp-heading">Những mặt hàng không được phép vận chuyển hàng không</h2>
+            <p>Việc vận chuyển hàng hóa đường hàng không quốc tế đòi hỏi đáp ứng những quy định cao hơn. Đặc biệt ảnh hưởng đến tình hình ổn định của đất nước trên thông tin quốc tế. Vận chuyển hàng không quốc tế hạn chế và cấm những loại hàng hóa sau:</p>
+            <p>+ Thuốc phiện, các hợp chất từ thuốc phiện, các chất ma túy, các chất kích thích thần kinh;</p>
+            <p>+ Vận chuyển hoa quả tươi, rau quả tươi.</p>
+            <p>+ Đồ uống có cồn, chất gây cháy nổ, các chất gây nguy hiểm mất vệ sinh, gây ô nhiễm môi trường.</p>
+            <p>+ Vũ khí, đạn dược, chất nổ, trang thiệt bị quân sự</p>
+            <p>+ Các loại văn hóa phẩm đồi trụy, phản động, ấn phẩm, tài liệu nhằm phá hoại trật tự công cộng, chống lại Nhà nước.</p>
+            <p>+ Chất thải nguy hại</p>
+            <p>+ Cần sa, bao gồm cả cần sa dùng làm thuốc.</p>
+            <p>+  Hạn chế vận chuyển thuốc lá, hạt giống, thực vật, lông thú.</p>
+            <p>+ Đối với hàng nguy hiểm, người gửi hàng phải chịu trách nhiệm chứng minh bản chất lô hàng đảm bảo tuân thủ quy định của Người vận chuyển và các quy định của Nhà chức trách liên quan.</p>
+            <p>+ Hạn chế vận chuyển hàng đặc biệt bao gồm hàng giá trị cao, hàng nguy hiểm, hàng động vật sống, hàng mau hỏng, hàng dễ vỡ,&#8230; chỉ được chấp nhận vận chuyển khi điều kiện đáp ứng đầy đủ quy định vận chuyển hàng hoá của Người vận chuyển và quy định của Nhà chức trách liên quan.</p>
+            <h2 id="ftoc-heading-7" class="ftwp-heading">Vận tải hàng không quốc tế uy tín cước phí cạnh tranh KoiDelivery</h2>
+            <p><a href="http://dhdlogistics.com/"><strong>KoiDelivery</strong></a> hiện đang là đại lý của nhiều hãng máy bay lớn đang hoạt động tại Việt Nam. Chúng tôi chuyên cung cấp dịch vụ vận tải hàng không từ sân bay Nội Bài, Tân Sơn Nhất, Đà Nẵng đến tất cả các sân bay trên thế giới và ngược lại.</p>
+            <h3 id="ftoc-heading-8" class="ftwp-heading">Các gói dịch vụ vận chuyển hàng không quốc tế</h3>
+            <p>+ Dịch vụ bay thông thường với giá cả phải chăng, thời gian đi từ 2 &#8211; 3 ngày đối với các khu vực Châu Á. Từ 3 &#8211; 5 ngày đến các nơi trong khu vực Châu Âu, Mỹ.</p>
+            <p>Dịch vụ vận tải đến các nước khu vực trong châu Á như Hàn Quốc, Trung Quốc, Nhật bản, Thái Lan, Singapore… đang được KoiDelivery tập trung mạnh.</p>
+            <p>+ Dịch vụ bay nhanh với chi phí cao hơn, hàng hóa chỉ đi trong 1 &#8211; 2 ngày đối với các nước trong khu vực Châu Á. Trong vòng 2 &#8211; 3 ngày với các nơi đến ở Châu Âu, Mỹ.</p>
+            <h3 id="ftoc-heading-9" class="ftwp-heading">Tại sao nên chọn dịch vụ vận tải hàng không của KoiDelivery?</h3>
+            <p>KoiDelivery là công ty vận chuyển hàng hóa quốc tế uy tín chuyên nghiệp. Chúng tôi tư vấn cho khách hàng cặn kẽ về các gói dịch vụ, thủ tục và hỗ trợ giúp hàng hàng được thông quan nhanh chóng. Dịch vụ chuyển phát nhanh bằng đường hàng không phục vụ cho khách hàng cá nhân, công ty, doanh nghiệp xuất nhập khẩu.</p>
+            <ul>
+                <li>Dịch vụ vận tải hàng không từ tất cả các sân bay quốc tế và Việt Nam. Đáp ứng nhu cầu vận chuyển hàng hóa đến từ nhiều nước khác nhau.</li>
+                <li>Dịch vụ tư vấn chính xác về thủ tục xuất nhập khẩu và gói dịch vụ vận chuyển hàng hóa phù hợp.</li>
+                <li>Giá cước vận chuyển hàng ưu đãi rẻ nhất thị trường, bao thuế trọn gói.</li>
+                <li>Không lo phát sinh thêm chi phí sau khi chốt báo giá vận chuyển hàng.</li>
+                <li>Dịch vụ chuyển phát nhanh Door to Door, giao nhận hàng tận nơi.</li>
+                <li>Khách hàng dễ dàng theo dõi lộ trình vận chuyển hàng hóa trong suốt quá trình.</li>
+                <li>Đội ngũ nhân viên logistics, xuất nhập khẩu, chứng từ am hiểu chính sách quy định từng hãng hàng không, từng quốc gia.</li>
+                <li>Vận chuyển hàng nguy hiểm, hàng khó vận chuyển, bàn giao đầy đủ giấy tờ về hàng hóa.</li>
+            </ul>
+            <p><img loading="lazy" decoding="async" class="size-full wp-image-11592 aligncenter" src="~/img/maybay3.jpg" alt="Chuyển phát nhanh các nước đường hàng không" width="700" height="450" /></p>
+            <p>KoiDelivery là đối tác vận chuyển hàng hóa của nhiều hãng hàng không nội địa và quốc tế. Có thể kể đến như: Singapore Airlines, Thai Airways, Eva Air, Korean Airlines , Asiana Airlines, United Airlines, Malaysia Airlines, Japan Airlines, China Airlines, Vietnam Airlines,&#8230;</p>
+            <p>Chuyển phát nhanh hàng hóa các quốc gia: Mỹ, Hàn Quốc, Nhật Bản, Trung Quốc, Thái Lan, Lào, Campuchia, Hongkong, Úc, Singapore, Đài Loan.</p>
+            <p>Vận tải hàng hóa quốc tế bằng đường hàng không uy tín cước phí rẻ chỉ có tại KoiDelivery, quý khách hàng an tâm về chất lượng dịch vụ, an toàn về hàng hóa và thời gian vận chuyển nhanh nhất.</p>
+            <h2 id="ftoc-heading-10" class="ftwp-heading">Quy trình vận chuyển hàng hóa bằng đường hàng không</h2>
+            <h3 id="ftoc-heading-11" class="ftwp-heading">1. Ký hợp đồng vận chuyển</h3>
+            <p>Sau khi xem xét, quyết định gửi hàng vận chuyển tại đơn vị dịch vụ vận chuyển nào đó thì điều đầu tiên phải làm là phải ký hợp đồng. Hợp đồng vận chuyển là cực kỳ quan trọng để đảm bảo quyền lợi của chính khách hàng.</p>
+            <h3 id="ftoc-heading-12" class="ftwp-heading">2. Booking lịch bay</h3>
+            <p>Việc đặt chỗ máy bay vận chuyển là điều phải làm ngay sau khi ký hợp đồng, để đảm bảo rút ngắn thời gian vận chuyển. Khi nhận được Booking từ Forwarder các công ty dịch vụ phải kiểm tra lại các thông tin trên Booking như: sân bay đi, sân bay đến, thời gian khởi hành, số lượng, thể tích … để chuẩn bị hàng giao cho Forwarder.</p>
+            <h3 id="ftoc-heading-13" class="ftwp-heading">3. Đóng hàng</h3>
+            <p>Hàng hóa được đóng tại kho nhà vận chuyển để đảm bảo đúng quy cách đóng gói và ghi ký mã hiệu cho kiện hàng (Shipping mark) theo yêu cầu của người nhập khẩu. Công ty vận chuyển hoặc Forwarder sẽ đưa hàng ra kho hàng tại sân bay. Cung cấp Giấy chứng nhận đã nhận hàng (FCR – Forwarder’s Certificate of Receipt) xác nhận được lô hàng cần vận chuyển.</p>
+            <h3 id="ftoc-heading-14" class="ftwp-heading">4. Làm thủ tục hải quan xuất khẩu</h3>
+            <p>Khi hàng được vận chuyển ra sân bay thì cần xuất trình bộ chứng từ để giao hàng cho hãng hàng không và làm thủ tục hải quan. Các công ty dịch vụ vận chuyển hoặc bên Forwarder họ sẽ làm cho khách hàng luôn theo gói vận chuyển</p>
+            <h3 id="ftoc-heading-15" class="ftwp-heading">5. Phát hành AWB</h3>
+            <p>Sau khi hoàn thành thủ tục hải quan xuất khẩu, đơn hàng được hãng hàng không phát hành MAWB. Theo đó, 1 bản AWB gốc đã được gửi cùng lô hàng đến sân bay đích, còn lại công ty dịch vụ họ cầm phục vụ trong các việc cần thiết.</p>
+            <p>Người xuất khẩu không nhất định phải gửi riêng bộ chứng từ mà có thể để bộ chứng từ đi kèm bản AWB gốc gửi cho người nhập khẩu.</p>
+            <h3 id="ftoc-heading-16" class="ftwp-heading">6. Nhận chứng từ trước qua email</h3>
+            <p>Sau khi lô hàng kèm bộ chứng từ đã được vận tải, Forwarder thường gửi qua email bản scan của AWB gốc số 3 mà họ nhận được cùng với bản scan của toàn bộ các chứng từ khác gửi cho người nhập khẩu</p>
+            <h3 id="ftoc-heading-17" class="ftwp-heading">7. Thông báo hàng đến</h3>
+            <p>Đại lý của hãng vận tải thông báo hàng đến cho người nhập khẩu trước ngày máy bay đến. Người nhập khẩu cần kiểm tra các thông tin như: Ngày hàng đến, nơi lưu giữ hàng chờ thông quan, các loại phí phải nộp…</p>
+            <h3 id="ftoc-heading-18" class="ftwp-heading">8. Lệnh giao hàng</h3>
+            <p>Khi hàng đến, Forwarder thu lại HAWB bản gốc số 2, đến hãng hàng không hoặc đại lý của họ để nộp các khoản phí như: phí làm hàng (Handling), phí lệnh giao hàng (D/O), phí lao vụ (Labor fee)… và nhận Lệnh giao hàng (D/O) cùng bộ chứng gửi kèm theo hàng hóa.</p>
+            <h3 id="ftoc-heading-19" class="ftwp-heading">9. Làm thủ tục hải quan nhập khẩu</h3>
+            <p>Người nhập khẩu có thể tự thực hiện thủ tục hải quan hoặc thuê công ty Forwarder tại nước đó.</p>
+            <h3 id="ftoc-heading-20" class="ftwp-heading">10. Nhận hàng</h3>
+            <p>Forwarder làm thủ tục đăng ký lấy hàng tại kho hàng không, thanh lý tờ khai và chuyển hàng cho người nhập khẩu.</p>
+            <p>KoiDelivery &#8211; đơn vị <strong>vận tải đa phương thức</strong>, với phương châm luôn đặt lợi ích của Khách hàng lên hàng đầu.</p>
+            <p>Chúng tôi dựa trên tính chất của hàng hóa và yêu cầu về thời gian để tư vấn giúp quý khách lựa chọn gói cước, hãng hàng không phù hợp nhất. Để sao cho tiết kiệm chi phí và thời gian nhất. Hãy liên hệ với KoiDelivery khi quý khách có nhu cầu nhé.</p>
+            <p>&nbsp;</p>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>UTH quận 12 Phan Văn Điền</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+84 358699689</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>dienpv.ut.edu.vn</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/xi.van.184?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="#">Air Freight</a>
+                    <a class="btn btn-link" href="#">Sea Freight</a>
+                    <a class="btn btn-link" href="#">Road Freight</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="#">About Us</a>
+                    <a class="btn btn-link" href="#">Contact Us</a>
+                    <a class="btn btn-link" href="#">Our Services</a>
+                    <a class="btn btn-link" href="#">Terms & Condition</a>
+                    <a class="btn btn-link" href="#">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Đăng ký để nhận thông tin và ưu đãi mới nhất từ chúng tôi.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">2024 KoiDelivery</a>, All Rights Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!-- Thêm nội dung khác tại đây nếu cần -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="@Url.Content("~/lib/wow/wow.min.js")"></script>
+    <script src="@Url.Content("~/lib/easing/easing.min.js")"></script>
+    <script src="@Url.Content("~/lib/waypoints/waypoints.min.js")"></script>
+    <script src="@Url.Content("~/lib/counterup/counterup.min.js")"></script>
+    <script src="@Url.Content("~/lib/owlcarousel/owl.carousel.min.js")"></script>
+    <!-- Template Javascript -->
+    <script src="@Url.Content("~/js/main.js")"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

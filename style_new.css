@@ -1,0 +1,75 @@
+﻿h3, h2 {
+    text-align: justi   ;
+}
+
+.scroll-mt-[95px] {
+    scroll-margin-top: 95px;
+}
+
+.ck-content span {
+    background-color: transparent;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+    .ck-content span span {
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        text-decoration: none;
+        vertical-align: baseline;
+        white-space: pre-wrap;
+    }
+
+.ck-content p {
+    line-height: 1.38;
+    margin-bottom: 12pt;
+    margin-top: 12pt;
+    text-align: justify;
+}
+
+.ck-content figure {
+    width: 75%;
+}
+
+.ck-content ul {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-inline-start: 48px;
+}
+
+.ck-content li {
+    background-color: transparent;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    list-style-type: disc;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre;
+}
+
+.ck-content a {
+    text-decoration: none;
+}
+
+    .ck-content a span {
+        background-color: transparent;
+        color: #1155cc;
+        font-family: Arial, sans-serif;
+        font-size: 11pt;
+    }
+
+.ck-content img {
+    aspect-ratio: undefined/undefined;
+    width: 100%;
+    height: auto;
+}
+
+.ck-content figcaption {
+    text-align: center;
+}
