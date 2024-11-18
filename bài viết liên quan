@@ -1,0 +1,47 @@
+<!-- Related Articles Start -->
+<div class="container-xxl py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h6 class="text-secondary text-uppercase">Bài viết liên quan</h6>
+            <h1 class="mb-0">Khám phá thêm</h1>
+        </div>
+        <div class="row">
+            <!-- Bài viết 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="related-article bg-white p-4">
+                    <img src="https://sanvuonadong.vn/wp-content/uploads/2020/07/can-canh-dan-ca-koi-khong-lo-cua-dai-gia-o-tp-hcm-03-san-vuon-a-dong.jpg" class="img-fluid mb-3" alt="Bài viết 1">
+                    <h5 class="mb-2">Hướng dẫn nuôi cá Koi</h5>
+                    <p class="mb-3">Khám phá cách nuôi cá Koi đúng cách để đảm bảo sức khỏe và vẻ đẹp của chúng.</p>
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsanvuonadong.vn%2Fnuoi-ca-koi.html&psig=AOvVaw1bedW49qpnHlbpWxAY7Pes&ust=1732004243121000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCH-oO_5YkDFQAAAAAdAAAAABAE
+                       class="btn btn-secondary btn-sm">Đọc thêm</a>
+                </div>
+            </div>
+
+            <!-- Bài viết 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="related-article bg-white p-4">
+                    <img src="~/img/Screenshot 2024-11-18 151915.png" class="img-fluid mb-3" alt="Bài viết 2">
+                    <h5 class="mb-2">Cá Koi nhật bản kiến thức từ A đến Z</h5>
+                    <p class="mb-3">Tìm hiểu tất cả thông tin từ cơ bản đến nâng cao về cá Koi Nhật Bản.</p>
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fkanokoi.com%2Fca-koi-nhat-ban&psig=AOvVaw3cr7kfhOtp58gh3-c_rxXg&ust=1732006711915000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDt2_nB5YkDFQAAAAAdAAAAABAE
+                       class="btn btn-secondary btn-sm">Đọc thêm</a>
+                </div>
+            </div>
+
+            <!-- Bài viết 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="related-article bg-white p-4">
+                    <img src="https://cakoibienhoa.com/public/userfiles/images/tin-tuc/nuoi-ca-koi-1.jpg" class="img-fluid mb-3" alt="Bài viết 3">
+                    <h5 class="mb-2">Top 6 loại thức ăn lên màu cho cá Koi</h5>
+                    <p class="mb-3">Tìm hiểu các loại thức ăn giúp cá Koi phát triển màu sắc đẹp nhất và khỏe mạnh.</p>
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthucancakoihikari.com%2Fthuc-an-len-mau-cho-ca-koi%2F&psig=AOvVaw1bedW49qpnHlbpWxAY7Pes&ust=1732004243121000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCH-oO_5YkDFQAAAAAdAAAAABAJ
+                       class="btn btn-secondary btn-sm">Đọc thêm</a>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Related Articles End -->
