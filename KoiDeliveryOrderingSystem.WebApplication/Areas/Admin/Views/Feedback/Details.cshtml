@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Chi Tiết Phản Hồi";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model KoiDeliveryOrderingSystem.Repositories.Feedback
+
+<h2 class="text-primary mb-4">Chi tiết phản hồi</h2>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-primary text-white">
+        <h5>Thông tin phản hồi</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Khách hàng:</strong> @Model.User.Name</p>
+        <p><strong>Dịch vụ:</strong> @Model.Service.Name</p>
+        <p><strong>Đánh giá:</strong> <span class="badge bg-warning text-dark">@Model.Rating/5</span></p>
+        <p><strong>Bình luận:</strong> @Model.Comment</p>
+        <p>
+            <strong>Trạng thái:</strong>
+            @if (Model.Resolved ?? false)
+            {
+                <span class="badge bg-success">Đã xử lý</span>
+            }
+            else
+            {
+                <span class="badge bg-danger">Chưa xử lý</span>
+            }
+        </p>
+        <p><strong>Ngày tạo:</strong> @Model.CreatedAt?.ToString("dd/MM/yyyy HH:mm")</p>
+    </div>
+    <div class="card-footer text-end">
+        <a href="/Admin/Feedback/Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Quay lại danh sách
+        </a>
+    </div>
+</div>

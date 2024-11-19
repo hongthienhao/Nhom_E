@@ -1,0 +1,209 @@
+﻿@{
+    ViewData["Title"] = "Đăng Ký";
+    Layout = null; // Đảm bảo không sử dụng layout mặc định
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="icon" href="~/img/logoweb.jpg" type="image/png">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+       body{
+    background-image: url('../img/backgrow2222.png');
+    background-size: cover; /* Hiển thị hình nền với tỉ lệ giữa chiều rộng và chiều cao được bảo toàn */
+    background-position: center; /* Căn chỉnh hình nền vào giữa màn hình */
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+            padding-top: 40px;
+            margin-bottom: 50px;
+}
+
+.signup{
+    width: 450px;
+    height: 630px;
+    background: rgba(255, 255, 255, 0.1); /* Màu trắng với độ trong suốt 0.5 */;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+.signup:hover{
+    box-shadow: 0 0 10px red;
+}
+.signup h1{
+    display: inline-block;
+   color: aliceblue;
+}
+
+.signup input{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: white;
+}
+.checkbox input{
+    width: 15px;
+    height: 15px;
+    margin-left: 40px;
+    color: white;
+}
+
+.signup .submit{
+    width: 370px;
+    height: 41px;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.signup .submit:hover{
+    background-color: #00FF7F;
+    box-shadow: 0 0 10px #ADFF2F;
+}
+p{
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+    margin: 1px;
+    color: aliceblue;
+}
+.checkbox{
+    float: left;
+}
+.color{
+    background: rgba(255, 255, 255, 0.1); /* Màu trắng với độ trong suốt 0.1*/
+    color: white;
+}
+
+.textdn{
+    color: azure;
+            text-align: center; /* Canh giữa chữ */
+            margin-left: 10px;
+}
+
+#message{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.checkbox .color{
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <form class="signup" asp-action="SignUp" asp-controller="Account" method="post" onsubmit="return validateForm()">
+        <h1>Đăng ký</h1><br>
+
+        <p><i class="fa fa-user"></i> Nhập tên người dùng</p><br>
+        <input type="text" placeholder="Enter name" class="color" id="username" name="username" required><br>
+
+        <p><i class="fas fa-envelope"></i> Nhập Email</p><br>
+        <input type="email" placeholder="Enter email" class="color" id="email" name="email" required><br>
+
+        <p><i class="fas fa-phone"></i> Nhập số điện thoại</p><br>
+        <input type="text" placeholder="Enter phone number" class="color" id="phone" name="phone" required><br>
+
+        <p><i class="fas fa-map-marker-alt"></i> Nhập địa chỉ</p><br>
+        <input type="text" placeholder="Enter address" class="color" id="address" name="address" required><br>
+
+        <p><i class="fa fa-key"></i> Mật khẩu</p><br>
+        <input type="password" placeholder="Enter password" class="color" id="password" name="password" required><br>
+
+        <p><i class="fa fa-key"></i> Nhập lại mật khẩu</p><br>
+        <input type="password" placeholder="Re-Enter password" class="color" id="nl_password" name="confirmPassword" required><br>
+
+        <div class="checkbox">
+            <input type="checkbox" class="color" id="agree_terms" required>
+            Đồng ý đăng ký
+        </div><br>
+
+        <p id="message" style="color: red;"></p> <!-- Thông báo lỗi từ hàm validateForm -->
+        @if (TempData["SignUpError"] != null)
+        {
+            <div class="alert alert-danger mt-3">
+                @TempData["SignUpError"]
+            </div>
+        }
+
+        <input type="submit" value="Đăng ký" class="submit"><br>
+        <a href="/Account/Login" class="textdn">Đăng nhập</a>
+    </form>
+
+    <script>
+        function validateForm() {
+            const messageElem = document.getElementById('message');
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const address = document.getElementById('address').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('nl_password').value;
+            const agreeTerms = document.getElementById('agree_terms').checked;
+
+            if (!username) {
+                messageElem.innerText = "Vui lòng nhập tên người dùng!";
+                return false;
+            }
+
+            if (!email) {
+                messageElem.innerText = "Vui lòng nhập Email!";
+                return false;
+            }
+
+            if (!phone) {
+                messageElem.innerText = "Vui lòng nhập số điện thoại!";
+                return false;
+            }
+
+            if (!address) {
+                messageElem.innerText = "Vui lòng nhập địa chỉ!";
+                return false;
+            }
+
+            if (!password) {
+                messageElem.innerText = "Vui lòng nhập mật khẩu!";
+                return false;
+            }
+
+            if (!confirmPassword) {
+                messageElem.innerText = "Vui lòng nhập lại mật khẩu!";
+                return false;
+            }
+
+            if (password !== confirmPassword) {
+                messageElem.innerText = "Mật khẩu không khớp. Vui lòng nhập lại!";
+                return false;
+            }
+
+            if (!agreeTerms) {
+                messageElem.innerText = "Vui lòng đồng ý với các điều khoản đăng ký.";
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

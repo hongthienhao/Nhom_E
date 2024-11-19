@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Quản lý Bảng Giá";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<KoiDeliveryOrderingSystem.Repositories.ServicePricing>
+
+<h2 class="text-primary">Quản Lý Bảng Giá</h2>
+
+@{
+    // Nhóm bảng giá theo loại dịch vụ
+    var groupedServices = Model.GroupBy(p => p.Service.Category);
+}
+
+<div class="accordion" id="pricingAccordion">
+    @foreach (var group in groupedServices)
+    {
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-@group.Key">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-@group.Key" aria-expanded="true" aria-controls="collapse-@group.Key">
+                    @group.Key
+                </button>
+            </h2>
+            <div id="collapse-@group.Key" class="accordion-collapse collapse show" aria-labelledby="heading-@group.Key" data-bs-parent="#pricingAccordion">
+                <div class="accordion-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Khoảng Trọng Lượng</th>
+                                <th>Giá</th>
+                                <th>Điều Kiện</th>
+                                <th>Ghi Chú</th>
+                                <th>Hành Động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var pricing in group.OrderBy(p => p.WeightRange))
+                            {
+                                <tr>
+                                    <td>@pricing.WeightRange</td>
+                                    <td>@pricing.Price.ToString("C")</td>
+                                    <td>@pricing.Conditions</td>
+                                    <td>@pricing.Notes</td>
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@pricing.PricingId" class="btn btn-warning btn-sm">Sửa</a>
+                                        <form asp-action="Delete" asp-route-id="@pricing.PricingId" method="post" style="display:inline;" onsubmit="return confirm('Bạn có chắc chắn muốn xóa?');">
+                                            <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="mt-4 text-end">
+    <a asp-action="Create" class="btn btn-success">
+        <i class="fas fa-plus"></i> Thêm Mới Giá
+    </a>
+</div>

@@ -66,20 +66,57 @@ D:\SQL\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSy
 D:\SQL\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.pdb
 D:\SQL\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.genruntimeconfig.cache
 D:\SQL\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\ref\KoiDeliveryOrderingSystem.Services.dll
-D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.deps.json
-D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.runtimeconfig.json
-D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.dll
-D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.pdb
-D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Respositories.dll
-D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Respositories.pdb
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.csproj.AssemblyReference.cache
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.GeneratedMSBuildEditorConfig.editorconfig
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.AssemblyInfoInputs.cache
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.AssemblyInfo.cs
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.csproj.CoreCompileInputs.cache
+D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.deps.json
+D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.runtimeconfig.json
+D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.dll
+D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.pdb
+D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliv.0383DE21.Up2Date
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.dll
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\refint\KoiDeliveryOrderingSystem.Services.dll
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.pdb
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.genruntimeconfig.cache
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\ref\KoiDeliveryOrderingSystem.Services.dll
+D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.sourcelink.json
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.deps.json
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.runtimeconfig.json
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.dll
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.pdb
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.csproj.AssemblyReference.cache
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.AssemblyInfoInputs.cache
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.AssemblyInfo.cs
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.csproj.CoreCompileInputs.cache
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.sourcelink.json
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliv.0383DE21.Up2Date
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.dll
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\refint\KoiDeliveryOrderingSystem.Services.dll
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.pdb
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.genruntimeconfig.cache
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\ref\KoiDeliveryOrderingSystem.Services.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.deps.json
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.runtimeconfig.json
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Services.pdb
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.csproj.AssemblyReference.cache
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.AssemblyInfoInputs.cache
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.AssemblyInfo.cs
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.csproj.CoreCompileInputs.cache
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.sourcelink.json
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliv.0383DE21.Up2Date
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\refint\KoiDeliveryOrderingSystem.Services.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.pdb
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Services.genruntimeconfig.cache
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Services\obj\Debug\net8.0\ref\KoiDeliveryOrderingSystem.Services.dll

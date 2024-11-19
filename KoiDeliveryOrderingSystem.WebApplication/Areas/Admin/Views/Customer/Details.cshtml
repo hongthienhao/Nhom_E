@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Chi Tiết Khách Hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-primary mb-4">Chi Tiết Khách Hàng</h2>
+
+<!-- Thông Tin Cá Nhân -->
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5>Thông Tin Cá Nhân</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Tên Khách Hàng:</strong> @Model.Name</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Số Điện Thoại:</strong> @Model.Phone</p>
+        <p><strong>Địa Chỉ:</strong> @Model.Address</p>
+        <p><strong>Ngày Đăng Ký:</strong> @Model.CreatedAt?.ToString("dd/MM/yyyy")</p>
+    </div>
+</div>
+
+<!-- Lịch Sử Đơn Hàng -->
+<div class="card shadow-sm">
+    <div class="card-header bg-secondary text-white">
+        <h5>Lịch Sử Đơn Hàng</h5>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Mã Đơn</th>
+                        <th>Trạng Thái</th>
+                        <th>Tổng Số Tiền</th>
+                        <th>Ngày Đặt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Orders is IEnumerable<KoiDeliveryOrderingSystem.Repositories.Order> orders && orders.Any())
+                    {
+                        @foreach (var order in orders)
+                        {
+                            <tr>
+                                <td>@order.OrderId</td>
+                                <td>
+                                    @if (order.Status == "Pending")
+                                    {
+                                        <span class="badge bg-warning text-dark">Đang chờ</span>
+                                    }
+                                    else if (order.Status == "Shipped")
+                                    {
+                                        <span class="badge bg-info text-white">Đã giao</span>
+                                    }
+                                    else if (order.Status == "Delivered")
+                                    {
+                                        <span class="badge bg-success">Đã hoàn tất</span>
+                                    }
+                                </td>
+                                <td>@order.TotalPrice?.ToString("C")</td>
+                                <td>@order.OrderDate?.ToString("dd/MM/yyyy")</td>
+                            </tr>
+                        }
+                        <tr class="table-light">
+                            <td colspan="2" class="text-end"><strong>Tổng Cộng:</strong></td>
+                            <td colspan="2" class="text-start">
+                                @orders.Sum(o => o.TotalPrice ?? 0).ToString("C")
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center text-muted">Không có đơn hàng nào.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Nút Quay Lại -->
+<div class="text-end mt-3">
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Quay Lại
+    </a>
+</div>

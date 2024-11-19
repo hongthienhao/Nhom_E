@@ -1,0 +1,22 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.Order
+
+<h2>Chi Tiết Đơn Hàng</h2>
+
+<div>
+    <strong>Mã đơn hàng:</strong> @Model.OrderId
+</div>
+<div>
+    <strong>Địa điểm lấy hàng:</strong> @Model.PickupLocation
+</div>
+<div>
+    <strong>Địa điểm giao hàng:</strong> @Model.DeliveryLocation
+</div>
+<div>
+    <strong>Phương thức vận chuyển:</strong> @Model.ShippingMethod
+</div>
+<div>
+    <strong>Trạng thái:</strong> @Model.Status
+</div>
+<div>
+    <strong>Tổng giá:</strong> @Model.TotalPrice
+</div>

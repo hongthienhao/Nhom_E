@@ -1,0 +1,64 @@
+﻿@model IEnumerable<KoiDeliveryOrderingSystem.Repositories.Order>
+
+@{
+    ViewData["Title"] = "Danh Sách Đơn Hàng";
+    Layout = "~/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-primary mb-4">Danh Sách Đơn Hàng</h2>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Mã Đơn</th>
+                        <th>Khách Hàng</th>
+                        <th>Trạng Thái</th>
+                        <th>Phương Thức Vận Chuyển</th>
+                        <th>Tổng Số Tiền</th>
+                        <th>Địa Điểm Giao Hàng</th>
+                        <th>Thời Gian Giao Hàng Dự Kiến</th>
+                        <th>Hành Động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model ?? Enumerable.Empty<KoiDeliveryOrderingSystem.Repositories.Order>())
+                    {
+                        <tr>
+                            <td>@order.OrderId</td>
+                            <td>@order.Customer?.Name</td>
+                            <td>
+                                @if (order.Status == "Pending")
+                                {
+                                    <span class="badge bg-warning text-dark">Đang Chờ</span>
+                                }
+                                else if (order.Status == "Shipped")
+                                {
+                                    <span class="badge bg-info text-white">Đã Giao</span>
+                                }
+                                else if (order.Status == "Delivered")
+                                {
+                                    <span class="badge bg-success">Hoàn Tất</span>
+                                }
+                            </td>
+                            <td>@order.ShippingMethod</td>
+                            <td>@order.TotalPrice?.ToString("C")</td>
+                            <td>@order.DeliveryLocation</td>
+                            <td>@order.EstimatedDeliveryDate?.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <!-- Xem Chi Tiết -->
+                                    <a href="/DeliveringStaff/Order/Details/@order.OrderId" class="btn btn-primary btn-sm">
+                                        <i class="fas fa-eye"></i> Xem
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

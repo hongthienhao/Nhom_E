@@ -1,0 +1,25 @@
+﻿[HttpPost]
+[ValidateAntiForgeryToken]
+public async Task<IActionResult>
+    Delete(int id)
+    {
+    try
+    {
+    var pricing = await _servicePricingService.GetPricingByIdAsync(id); // Check if the record exists
+    if (pricing == null)
+    {
+    TempData["ErrorMessage"] = "Bảng giá không tồn tại!";
+    return RedirectToAction(nameof(Index));
+    }
+
+    await _servicePricingService.DeletePricingAsync(id); // Delete the record
+    TempData["SuccessMessage"] = "Xóa bảng giá thành công!";
+    return RedirectToAction(nameof(Index));
+    }
+    catch (Exception ex)
+    {
+    _logger.LogError($"Lỗi khi xóa bảng giá {id}: {ex.Message}");
+    TempData["ErrorMessage"] = "Không thể xóa bảng giá.";
+    return RedirectToAction(nameof(Index));
+    }
+    }

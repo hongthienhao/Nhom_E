@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="icon" href="img/logoweb.jpg" type="image/png">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <form class="login" name="frm1" action="" onsubmit="return validForm()" method="post">
+        <h1>Đăng nhập</h1>
+        <br>
+        <p><i class="fa fa-user"></i> Tên người dùng </p>
+        <input type="text" placeholder="Enter name / phone" class="color" id="username" name="username">
+        <p><i class="fas fa-envelope"></i><i class="fas fa-phone"></i> Nhập Email hoặc số điện thoại  </p><br>
+        <input type="text" placeholder="Enter email" class="color" id="email" name="email">
+        <br>
+        <p><i class="fa fa-key"></i> Mật khẩu</p>
+        <input type="password" placeholder="Enter Password" class="color" id="password" name="password">
+        <br>
+        <br>
+        <input type="submit" value="Đăng Nhập" onclick="dangnhap()" id="submit">
+        <a href="signup.html" id="">
+            Đăng kí tài khoản
+        </a>
+
+        <script>
+            function dangnhap() {
+                event.preventDefault();
+                var username = document.getElementById('username').value;
+                var email = document.getElementById('email').value;
+                var password = document.getElementById('password').value;
+                var data = localStorage.getItem('user');
+
+                if (data) {
+                    var data1 = JSON.parse(data);
+                    console.log(data1);
+
+                    if (!username) {
+                        alert("Vui lòng nhập user name");
+                        return false;
+                    }
+                    if (!password) {
+                        alert("Vui lòng nhập mk");
+                        return false;
+                    }
+                    if (!email) {
+                        alert("Vui lòng nhập email");
+                        return false;
+                    }
+
+                    for (var i = 0; i < data1.length; i++) {
+                        if (username == data1[i].username && email == data1[i].email && password == data1[i].password) {
+                            alert("Đăng nhập thành công");
+                            return;
+                        }
+                    }
+                    alert("Đăng nhập thất bại");
+                } else {
+                    alert("Không tìm thấy người dùng. Vui lòng đăng ký trước khi đăng nhập.");
+                }
+            }
+
+        </script>
+</body>
+</html>
