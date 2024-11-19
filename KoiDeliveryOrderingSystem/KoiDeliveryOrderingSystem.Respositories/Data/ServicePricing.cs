@@ -25,6 +25,8 @@ public partial class ServicePricing
     [Column("conditions")]
     public string? Conditions { get; set; }
 
+
+
     [ForeignKey("ServiceId")]
     [InverseProperty("ServicePricings")]
     public virtual Service Service { get; set; } = null!;

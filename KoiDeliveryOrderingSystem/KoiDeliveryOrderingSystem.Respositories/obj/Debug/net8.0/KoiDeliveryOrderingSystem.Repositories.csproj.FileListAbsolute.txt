@@ -12,3 +12,49 @@ D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrd
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.genruntimeconfig.cache
 D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\ref\KoiDeliveryOrderingSystem.Repositories.dll
+D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.sourcelink.json
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.deps.json
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.runtimeconfig.json
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.csproj.AssemblyReference.cache
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.AssemblyInfoInputs.cache
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.AssemblyInfo.cs
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.csproj.CoreCompileInputs.cache
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.sourcelink.json
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\refint\KoiDeliveryOrderingSystem.Repositories.dll
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.genruntimeconfig.cache
+D:\PhanVanDien\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\ref\KoiDeliveryOrderingSystem.Repositories.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.deps.json
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.runtimeconfig.json
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.csproj.AssemblyReference.cache
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.AssemblyInfoInputs.cache
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.AssemblyInfo.cs
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.csproj.CoreCompileInputs.cache
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.sourcelink.json
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\refint\KoiDeliveryOrderingSystem.Repositories.dll
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.genruntimeconfig.cache
+D:\cái cần sửa\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\ref\KoiDeliveryOrderingSystem.Repositories.dll
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.deps.json
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.runtimeconfig.json
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\bin\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.csproj.AssemblyReference.cache
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.AssemblyInfoInputs.cache
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.AssemblyInfo.cs
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.csproj.CoreCompileInputs.cache
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.sourcelink.json
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.dll
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\refint\KoiDeliveryOrderingSystem.Repositories.dll
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.pdb
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\KoiDeliveryOrderingSystem.Repositories.genruntimeconfig.cache
+D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.Respositories\obj\Debug\net8.0\ref\KoiDeliveryOrderingSystem.Repositories.dll

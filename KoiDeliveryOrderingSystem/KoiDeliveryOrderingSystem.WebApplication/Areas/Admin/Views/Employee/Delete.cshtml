@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Xóa Nhân Viên";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model KoiDeliveryOrderingSystem.Repositories.User
+
+<h2 class="text-danger mb-4">Xác nhận xóa nhân viên</h2>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <p>Bạn có chắc chắn muốn xóa nhân viên: <strong>@Model.Name</strong> không?</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+    </div>
+    <div class="card-footer d-flex justify-content-end">
+        <form method="post" action="/Employee/DeleteConfirmed" style="margin-right: 10px;">
+            <input type="hidden" name="UserId" value="@Model.UserId" />
+            <button type="submit" class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i> Xóa
+            </button>
+        </form>
+        <a href="/Admin/Employee/Index" class="btn btn-secondary">
+            <i class="fas fa-times"></i> Hủy
+        </a>
+    </div>
+</div>

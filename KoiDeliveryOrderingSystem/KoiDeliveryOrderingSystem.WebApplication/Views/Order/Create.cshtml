@@ -1,31 +1,79 @@
 ﻿@model KoiDeliveryOrderingSystem.Repositories.Order
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Đơn Hàng</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
 
-<h2>Tạo Đơn Hàng</h2>
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
 
-<form asp-action="Create" method="post">
-    <div>
-        <label>Địa điểm lấy hàng:</label>
-        <input asp-for="PickupLocation" class="form-control" />
+            .form-container h2 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #007bff;
+            }
+
+        .btn-primary {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Tạo Đơn Hàng</h2>
+        <form asp-action="Create" method="post">
+            <div class="mb-3">
+                <label for="PickupLocation" class="form-label">Địa điểm lấy hàng:</label>
+                <input asp-for="PickupLocation" id="PickupLocation" class="form-control" placeholder="Nhập địa điểm lấy hàng" />
+            </div>
+            <div class="mb-3">
+                <label for="DeliveryLocation" class="form-label">Địa điểm giao hàng:</label>
+                <input asp-for="DeliveryLocation" id="DeliveryLocation" class="form-control" placeholder="Nhập địa điểm giao hàng" />
+            </div>
+            <div class="mb-3">
+                <label for="ShippingMethod" class="form-label">Phương thức vận chuyển:</label>
+                <select asp-for="ShippingMethod" id="ShippingMethod" class="form-select">
+                    <option value="Hàng không">Hàng không</option>
+                    <option value="Đường biển">Đường biển</option>
+                    <option value="Đường bộ">Đường bộ</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="TotalWeight" class="form-label">Khối lượng (kg):</label>
+                <input asp-for="TotalWeight" id="TotalWeight" class="form-control" type="number" placeholder="Nhập khối lượng" />
+            </div>
+            <div class="mb-3">
+                <label for="TotalQuantity" class="form-label">Số lượng:</label>
+                <input asp-for="TotalQuantity" id="TotalQuantity" class="form-control" type="number" placeholder="Nhập số lượng" />
+            </div>
+            <div class="mb-3">
+                <label for="AdditionalServices" class="form-label">Dịch vụ bổ sung:</label>
+                <select asp-for="AdditionalServices" id="AdditionalServices" class="form-select">
+                    <option value="Bảo hiểm hàng hóa">Bảo hiểm hàng hóa (2% giá trị hàng hóa)</option>
+                    <option value="Theo dõi và kiểm tra thường xuyên">Theo dõi và kiểm tra thường xuyên</option>
+                    <option value="Dịch vụ xử lý thủ tục hải quan">Dịch vụ xử lý thủ tục hải quan</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Đặt hàng</button>
+        </form>
     </div>
-    <div>
-        <label>Địa điểm giao hàng:</label>
-        <input asp-for="DeliveryLocation" class="form-control" />
-    </div>
-    <div>
-        <label>Phương thức vận chuyển:</label>
-        <select asp-for="ShippingMethod" class="form-control">
-            <option value="Hàng không">Hàng không</option>
-            <option value="Đường biển">Đường biển</option>
-            <option value="Đường bộ">Đường bộ</option>
-        </select>
-    </div>
-    <div>
-        <label>Khối lượng (kg):</label>
-        <input asp-for="TotalWeight" class="form-control" type="number" />
-    </div>
-    <div>
-        <label>Số lượng:</label>
-        <input asp-for="TotalQuantity" class="form-control" type="number" />
-    </div>
-    <button type="submit" class="btn btn-primary">Đặt hàng</button>
-</form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

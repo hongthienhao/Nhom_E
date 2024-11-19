@@ -28,11 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Delivering Staff\" />
-    <Folder Include="Areas\Sales Staff\" />
-    <Folder Include="Controllers\" />
     <Folder Include="wwwroot\Assets\customer\" />
     <Folder Include="wwwroot\customer\" />
   </ItemGroup>

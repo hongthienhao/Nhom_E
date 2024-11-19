@@ -1,0 +1,39 @@
+﻿@model IEnumerable<KoiDeliveryOrderingSystem.Repositories.ServicePricing>
+
+@{
+    ViewData["Title"] = "Quản lý Bảng Giá";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Danh sách Bảng Giá Dịch Vụ</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên dịch vụ</th>
+            <th>Giá</th>
+            <th>Ngày hiệu lực</th>
+            <th>Điều kiện</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.PricingId</td>
+                <td>@item.Service.Name</td>
+                <td>@item.Price.ToString("C0")</td>
+                <td>@item.EffectiveDate?.ToString("dd/MM/yyyy")</td>
+                <td>@item.Conditions</td>
+                <td>
+                    <a href="@Url.Action("Edit", "ServicePricing", new { id = item.PricingId })" class="btn btn-warning btn-sm">Sửa</a> |
+                    <a href="@Url.Action("Delete", "ServicePricing", new { id = item.PricingId })" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "ServicePricing")" class="btn btn-success">Thêm Bảng Giá Dịch Vụ Mới</a>

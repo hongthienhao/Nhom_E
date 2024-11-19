@@ -8514,11 +8514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
+      "projectUniqueName": "D:\\QlTV\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
       "projectName": "KoiDeliveryOrderingSystem.WebApplication",
-      "projectPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
+      "projectPath": "D:\\QlTV\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\obj\\",
+      "outputPath": "D:\\QlTV\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8536,11 +8536,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj": {
-              "projectPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj"
+            "D:\\QlTV\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj": {
+              "projectPath": "D:\\QlTV\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj"
             },
-            "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj": {
-              "projectPath": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj"
+            "D:\\QlTV\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj": {
+              "projectPath": "D:\\QlTV\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj"
             }
           }
         }
@@ -8612,7 +8612,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

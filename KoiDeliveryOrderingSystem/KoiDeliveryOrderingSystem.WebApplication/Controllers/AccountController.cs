@@ -1,101 +1,93 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using KoiDeliveryOrderingSystem.Repositories; // Namespace cho HTQLKoiContext và User
-using System;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http; // Sử dụng cho Session
+using KoiDeliveryOrderingSystem.Services.Interfaces;
 
-public class AccountController : Controller
+namespace KoiDeliveryOrderingSystem.WebApplication.Controllers
 {
-    private readonly HTQLKoiContext _context;
-
-    public AccountController(HTQLKoiContext context)
+    public class AccountController : Controller
     {
-        _context = context;
-    }
+        private readonly IAccountService _accountService;
 
-    [HttpGet]
-    public IActionResult Login()
-    {
-        return View();
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> Login(string email, string password)
-    {
-        Console.WriteLine($"Email: {email}");
-        Console.WriteLine($"Password: {password}");
-
-        // Kiểm tra thông tin đăng nhập và trạng thái hoạt động của tài khoản
-        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.Password == password && u.IsActive == true);
-
-        if (user != null)
+        public AccountController(IAccountService accountService)
         {
-            // Lưu user_id vào session
-            HttpContext.Session.SetInt32("UserId", user.UserId);
-
-            // Điều hướng đến trang chủ hoặc trang đặt hàng
-            return RedirectToAction("Index", "Home");
+            _accountService = accountService;
         }
 
-        // Đăng nhập không thành công
-        TempData["LoginError"] = "Email hoặc mật khẩu không đúng hoặc tài khoản đã bị vô hiệu hóa.";
-        return View();
-    }
-
-    [HttpGet]
-    public IActionResult SignUp()
-    {
-        return View();
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> SignUp(string username, string email, string password, string confirmPassword)
-    {
-        if (password != confirmPassword)
+        [HttpGet]
+        public IActionResult Login()
         {
-            TempData["SignUpError"] = "Mật khẩu không khớp.";
             return View();
         }
 
-        // Kiểm tra xem email đã tồn tại chưa
-        if (await _context.Users.AnyAsync(u => u.Email == email))
+        [HttpPost]
+        public async Task<IActionResult> Login(string email, string password)
         {
-            TempData["SignUpError"] = "Email này đã được đăng ký.";
+            try
+            {
+                var user = await _accountService.LoginAsync(email, password);
+
+                // Lưu UserId vào session
+                HttpContext.Session.SetInt32("UserId", user.UserId);
+
+                // Kiểm tra vai trò thông qua RoleId
+                switch (user.RoleId)
+                {
+                    case 1:
+                        // Nếu là admin (RoleId = 1)
+                        return RedirectToAction("Index", "Home", new { area = "Admin" });
+
+                    case 2:
+                        // Nếu là DeliveringStaff (RoleId = 2)
+                        return Redirect("https://localhost:7040/DeliveringStaff/Home/Index");
+
+                    case 3:
+                        // Nếu là SalesStaff (RoleId = 3)
+                        return Redirect("https://localhost:7040/SalesStaff/Home/Index");
+
+                    default:
+                        // Nếu không phải các role trên, điều hướng đến trang Home
+                        return RedirectToAction("Index", "Home");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Gửi thông báo lỗi nếu đăng nhập không thành công
+                TempData["LoginError"] = ex.Message;
+                return View();
+            }
+        }
+
+        [HttpGet]
+        public IActionResult SignUp()
+        {
             return View();
         }
 
-        // Tạo người dùng mới
-        var user = new User
+        [HttpPost]
+        public async Task<IActionResult> SignUp(string username, string email, string password, string confirmPassword, string phone, string address)
         {
-            Name = username,
-            Email = email,
-            Password = password, // Lưu mật khẩu không mã hóa (chỉ làm cho mục đích minh họa)
-            CreatedAt = DateTime.Now,
-            UpdatedAt = DateTime.Now,
-            IsActive = true // Đặt trạng thái hoạt động mặc định là true
-        };
+            try
+            {
+                // Gọi service để xử lý đăng ký
+                await _accountService.RegisterAsync(username, email, password, confirmPassword, phone, address);
 
-        try
-        {
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine("Error saving user to database: " + ex.Message);
-            TempData["SignUpError"] = "Có lỗi xảy ra khi đăng ký tài khoản.";
-            return View();
+                // Sau khi đăng ký thành công, điều hướng đến trang đăng nhập
+                return RedirectToAction("Login");
+            }
+            catch (Exception ex)
+            {
+                // Gửi thông báo lỗi nếu đăng ký thất bại
+                TempData["SignUpError"] = ex.Message;
+                return View();
+            }
         }
 
-        // Sau khi đăng ký thành công, chuyển hướng đến trang đăng nhập
-        return RedirectToAction("Login", "Account");
-    }
-
-    [HttpGet]
-    public IActionResult Logout()
-    {
-        // Xóa session khi đăng xuất
-        HttpContext.Session.Remove("UserId");
-        return RedirectToAction("Login");
+        [HttpGet]
+        public IActionResult Logout()
+        {
+            // Xóa session khi đăng xuất
+            HttpContext.Session.Remove("UserId");
+            return RedirectToAction("Login");
+        }
     }
 }

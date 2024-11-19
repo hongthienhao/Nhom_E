@@ -17,167 +17,227 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KoiDeliveryOrderingSystem.WebApplication
 build_property.RootNamespace = KoiDeliveryOrderingSystem.WebApplication
-build_property.ProjectDir = D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\
+build_property.ProjectDir = D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication
+build_property.MSBuildProjectDirectory = D:\QlTV\New folder\New folder\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Home/Index.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Feedback/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVlZGJhY2tcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Feedback/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVlZGJhY2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Home/QuanLyDonVanChuyen.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxRdWFuTHlEb25WYW5DaHV5ZW4uY3NodG1s
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Shared/_Layout.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/ServicePricing/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVByaWNpbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/ServicePricing/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVByaWNpbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/ServicePricing/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVByaWNpbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/ServicePricing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVByaWNpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Account/Login.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Delivery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXERlbGl2ZXJ5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/OrderDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXE9yZGVyRGV0YWlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/SalesStaff/Views/DeliveryStatusHistory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2FsZXNTdGFmZlxWaWV3c1xEZWxpdmVyeVN0YXR1c0hpc3RvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/SalesStaff/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2FsZXNTdGFmZlxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/SalesStaff/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2FsZXNTdGFmZlxWaWV3c1xPcmRlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/SalesStaff/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2FsZXNTdGFmZlxWaWV3c1xPcmRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/SalesStaff/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2FsZXNTdGFmZlxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Account/SignUp.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Feedback/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Feedback/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Feedback/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Home/About.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Home/Contact.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Home/Index.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Invoice/Details.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Invoice/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Invoice/Pay.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Invoice/Pay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxQYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Login/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Login/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Manager/Dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxEYXNoYm9hcmQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Manager/Reports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxSZXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Create.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Delete.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Details.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Edit.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Index.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Service/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZXRhaWxzLmNzaHRtbA==
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Price/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Service/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Shared/Error.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Shared/_Layout.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Shared/_LayoutPrice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQcmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Transaction/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cRGV0YWlscy5jc2h0bWw=
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/UserProfile/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Transaction/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cSW5kZXguY3NodG1s
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/UserProfile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Create.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Delete.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Details.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Edit.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Index.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/User/ManagePermissions.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNYW5hZ2VQZXJtaXNzaW9ucy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/User/Profile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/_ViewImports.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/_ViewStart.cshtml]
+[D:/QlTV/New folder/New folder/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

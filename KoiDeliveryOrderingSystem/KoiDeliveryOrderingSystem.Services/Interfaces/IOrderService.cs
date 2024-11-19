@@ -6,9 +6,11 @@ namespace KoiDeliveryOrderingSystem.Services.Interfaces
 {
     public interface IOrderService
     {
-        Task<IEnumerable<Order>> GetAllOrdersAsync();
-        Task<Order> GetOrderByIdAsync(int id);
-        Task AddOrderAsync(Order order);
-        Task<IEnumerable<Order>> GetOrdersByCustomerIdAsync(int customerId); // Thêm phương thức này
+        Task<IEnumerable<Order>> GetAllOrdersAsync(); // Lấy tất cả đơn hàng (admin)
+        Task<Order> GetOrderByIdAsync(int id); // Lấy chi tiết đơn hàng
+        Task AddOrderAsync(Order order); // Thêm đơn hàng (khách hàng)
+        Task<IEnumerable<Order>> GetOrdersByCustomerIdAsync(int customerId); // Lấy đơn hàng của khách hàng
+        Task UpdateOrderStatusAsync(int id, string newStatus); // Cập nhật trạng thái đơn hàng (admin)
+        Task DeleteOrderAsync(int id); // Xóa đơn hàng (admin)
     }
 }

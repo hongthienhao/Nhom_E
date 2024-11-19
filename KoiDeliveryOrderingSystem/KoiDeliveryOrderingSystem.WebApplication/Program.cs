@@ -5,6 +5,7 @@ using KoiDeliveryOrderingSystem.Repositories.Interfaces;
 using KoiDeliveryOrderingSystem.Services;
 using KoiDeliveryOrderingSystem.Services.Implementations;
 using KoiDeliveryOrderingSystem.Services.Interfaces;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,28 @@ builder.Services.AddDbContext<HTQLKoiContext>(options =>
 // Thêm dịch vụ cho các Repository và Service vào DI container (Dependency Injection)
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IFeedbackService, FeedbackService>();
+builder.Services.AddScoped<IFeedbackRepository, FeedbackRepository>();
+builder.Services.AddScoped<IServicePricingRepository, ServicePricingRepository>();
+builder.Services.AddScoped<IServicePricingService, ServicePricingService>();
+builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
+builder.Services.AddScoped<IServiceService, ServiceService>();
+builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
+builder.Services.AddScoped<IDashboardService, DashboardService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
+builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();  // Đăng ký OrderDetailService
+builder.Services.AddScoped<IDeliveryRepository, DeliveryRepository>();
+builder.Services.AddScoped<IDeliveryService, DeliveryService>();
+builder.Services.AddScoped<IDeliveryStatusHistoryRepository, DeliveryStatusHistoryRepository>();
+builder.Services.AddScoped<IDeliveryStatusHistoryService, DeliveryStatusHistoryService>();  // Đăng ký DeliveryStatusHistoryService
+
 
 
 // Thêm dịch vụ cho Session
@@ -55,10 +78,10 @@ app.UseAuthorization();
 // Cấu hình các route cho ứng dụng
 app.MapControllerRoute(
     name: "areas",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area:exists}/{controller=Order}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Account}/{action=Login}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

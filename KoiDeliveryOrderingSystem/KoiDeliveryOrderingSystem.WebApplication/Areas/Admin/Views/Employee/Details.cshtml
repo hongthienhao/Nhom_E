@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Chi Tiết Nhân Viên";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model KoiDeliveryOrderingSystem.Repositories.User
+
+<h2 class="text-primary mb-4">Chi tiết nhân viên</h2>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-primary text-white">
+        <h5>Thông tin nhân viên</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Mã nhân viên:</strong> @Model.UserId</p>
+        <p><strong>Tên:</strong> @Model.Name</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Số điện thoại:</strong> @Model.Phone</p>
+        <p><strong>Địa chỉ:</strong> @Model.Address</p>
+        <p>
+            <strong>Vai trò:</strong>
+            <span class="badge @(Model.RoleId == 2 ? "bg-info" : "bg-warning")">
+                @(Model.RoleId == 2 ? "Sales Staff" : "Delivery Staff")
+            </span>
+        </p>
+        <p>
+            <strong>Trạng thái:</strong>
+            @if (Model.IsActive.HasValue)
+            {
+                @if (Model.IsActive.Value)
+                {
+                    <span class="badge bg-success">Hoạt động</span>
+                }
+                else
+                {
+                    <span class="badge bg-danger">Bị khóa</span>
+                }
+            }
+            else
+            {
+                <span class="badge bg-secondary">Không xác định</span>
+            }
+        </p>
+    </div>
+    <div class="card-footer text-end">
+        <a href="/Admin/Employee/Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
+    </div>
+</div>

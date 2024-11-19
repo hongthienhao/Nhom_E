@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Chỉnh Sửa Khách Hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-primary mb-4">Chỉnh Sửa Thông Tin Khách Hàng</h2>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <form asp-action="Edit">
+            <!-- User ID (ẩn) -->
+            <input type="hidden" asp-for="UserId" />
+
+            <!-- Tên Khách Hàng -->
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Tên Khách Hàng</label>
+                <input asp-for="Name" class="form-control" readonly />
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" readonly />
+            </div>
+
+            <!-- Số Điện Thoại -->
+            <div class="mb-3">
+                <label asp-for="Phone" class="form-label">Số Điện Thoại</label>
+                <input asp-for="Phone" class="form-control" />
+            </div>
+
+            <!-- Địa Chỉ -->
+            <div class="mb-3">
+                <label asp-for="Address" class="form-label">Địa Chỉ</label>
+                <input asp-for="Address" class="form-control" />
+            </div>
+
+            <!-- Ghi Chú Nội Bộ -->
+            <div class="mb-3">
+                <label asp-for="Notes" class="form-label">Ghi Chú Nội Bộ</label>
+                <textarea asp-for="Notes" class="form-control" rows="4"></textarea>
+            </div>
+
+            <!-- Nút hành động -->
+            <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary me-2">
+                    <i class="fas fa-save"></i> Lưu Thay Đổi
+                </button>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Quay Lại
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

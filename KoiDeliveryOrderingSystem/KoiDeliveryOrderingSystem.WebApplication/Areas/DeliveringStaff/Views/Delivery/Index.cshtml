@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Danh sách giao hàng";
+    Layout = "~/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<KoiDeliveryOrderingSystem.Repositories.Delivery>
+
+<h2 class="text-primary mb-4">Danh sách giao hàng</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Order ID</th>
+                <th>Mã theo dõi</th>
+                <th>Trạng thái giao hàng</th>
+                <th>Thời gian dự kiến</th>
+                <th>Thời gian thực tế</th>
+                <th>Địa chỉ giao hàng</th>
+                <th>Ghi chú</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var delivery in Model)
+            {
+                <tr>
+                    <td>@delivery.DeliveryId</td>
+                    <td>@delivery.OrderId</td>
+                    <td>@delivery.TrackingCode</td>
+                    <td>@delivery.DeliveryStatus</td>
+                    <td>@delivery.EstimatedTime?.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td>@delivery.ActualTime?.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td>@delivery.DeliveryAddress</td>
+                    <td>@delivery.DeliveryNotes</td>                   
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

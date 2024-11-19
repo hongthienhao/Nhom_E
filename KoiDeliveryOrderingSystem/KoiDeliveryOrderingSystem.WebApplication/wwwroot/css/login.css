@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url('../img/backgrow2222.png'); /* Đường dẫn đến hình nền của bạn */
     background-size: cover; /* Hiển thị hình nền với tỉ lệ giữa chiều rộng và chiều cao được bảo toàn */
     background-position: center; /* Căn chỉnh hình nền vào giữa màn hình */
@@ -10,7 +10,8 @@ body{
     height: 100vh;
     margin: 0;
 }
-.login{
+
+.login {
     width: 400px;
     height: 470px;
     background: rgba(255, 255, 255, 0.1); /* Màu trắng với độ trong suốt 0.5 */
@@ -20,25 +21,28 @@ body{
     text-align: center;
     backdrop-filter: blur(5px);
 }
-.login:hover{
-    box-shadow: 0 0 20px red;
-}
-.login h1{
-    display: inline-block;
-    color: aliceblue;
-}
-.login input{
-    width: 280px;
-    height: 41px;
-    border-radius: 8px;
-    border: 1px solid grey;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    margin-top: 5px;
-}
+
+    .login:hover {
+        box-shadow: 0 0 20px red;
+    }
+
+    .login h1 {
+        display: inline-block;
+        color: aliceblue;
+    }
+
+    .login input {
+        width: 280px;
+        height: 41px;
+        border-radius: 8px;
+        border: 1px solid grey;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
 
 
-p{
+p {
     display: flex; /* Sử dụng display: flex; cho container của thẻ p */
     justify-content: flex-start; /* Căn nội dung về phía bên trái */
     align-items: center; /* Căn dọc nội dung vào giữa theo chiều dọc */
@@ -47,27 +51,30 @@ p{
     color: aliceblue;
 }
 
-.login a{
+.login a {
     float: right;
     padding-right: 40px;
     margin-top: 10px;
     color: aliceblue;
 }
-.color{
+
+.color {
     background: rgba(255, 255, 255, 0.1); /* Màu trắng với độ trong suốt 0.3 */
     color: white;
 }
-i{
+
+i {
     padding: 5px;
 }
 
-#submit{
+#submit {
     width: 307px;
     color: black;
     font-weight: bold;
     font-size: 16px;
 }
-#submit:hover{
-    background-color: #00FF7F;
-    box-shadow: 0 0 10px #ADFF2F;
-}
+
+    #submit:hover {
+        background-color: #00FF7F;
+        box-shadow: 0 0 10px #ADFF2F;
+    }

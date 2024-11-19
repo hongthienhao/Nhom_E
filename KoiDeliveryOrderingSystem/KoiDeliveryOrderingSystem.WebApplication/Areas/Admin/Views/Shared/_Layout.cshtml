@@ -1,4 +1,7 @@
-﻿
+﻿@* @{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+} *@
 @{
     Layout = null;
 }
@@ -50,37 +53,40 @@
                         <a class="sb-sidenav-brand" href="/">
                             <h4 style="color: white; padding-left: 10px; font-weight: bold;">HỆ THỐNG QUẢN LÝ VẬN CHUYỂN CÁ KOI</h4>
                         </a>
-                        <a class="nav-link" asp-area="Admin" asp-controller="Home" asp-action="Index">
+                        <a class="nav-link" href="https://localhost:7040/Admin/Home/Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Bảng điều khiển
                         </a>
-                        <a class="nav-link" href="/Admin/Home/QuanLyDonVanChuyen">
+                        <a class="nav-link" href="https://localhost:7040/Admin/Order/Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-box"></i></div>
                             Quản lý đơn vận chuyển
                         </a>
 
 
-                        <a class="nav-link" href="#">
+
+                        <a class="nav-link" href="https://localhost:7040/Admin/Customer/Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                             Quản lý khách hàng
                         </a>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="https://localhost:7040/Admin/Employee/Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-user-friends"></i></div>
                             Quản lý nhân viên
                         </a>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="https://localhost:7040/Admin/ServicePricing/Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-tags"></i></div>
                             Quản lý bảng giá
                         </a>
-                        <a class="nav-link" href="#">
+
+                        <a class="nav-link" href="https://localhost:7040/Admin/Feedback/Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-comments"></i></div>
                             Quản lý phản hồi
                         </a>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/Admin/Admin/Dashboard">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-line"></i></div>
                             Báo cáo & Thống kê
                         </a>
-                        <a class="nav-link" href="#">
+
+                        <a class="nav-link" href="https://localhost:7040/">
                             <div class="sb-nav-link-icon"><i class="fas fa-sign-out-alt"></i></div>
                             Đăng xuất
                         </a>
@@ -92,7 +98,9 @@
 
         <!-- Nội dung chính của trang -->
         <div id="layoutSidenav_content">
-         @RenderBody();
+            <main>
+                @RenderBody()
+            </main>
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">

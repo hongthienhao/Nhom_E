@@ -1,63 +1,78 @@
 ﻿@model KoiDeliveryOrderingSystem.Repositories.User
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Tạo Người Dùng";
 }
 
-<h1>Create</h1>
+<h1>Tạo Người Dùng</h1>
 
-<h4>User</h4>
+<h4>Thông Tin Người Dùng</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="UserId" class="control-label"></label>
-                <input asp-for="UserId" class="form-control" />
-                <span asp-validation-for="UserId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
+
+            <!-- Tên -->
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label">Tên</label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
+
+            <!-- Email -->
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="control-label">Email</label>
+                <input asp-for="Email" type="email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
+
+            <!-- Mật khẩu -->
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="control-label">Mật khẩu</label>
+                <input asp-for="Password" type="password" class="form-control" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Phone" class="control-label"></label>
-                <input asp-for="Phone" class="form-control" />
+
+            <!-- Số điện thoại -->
+            <div class="form-group mb-3">
+                <label asp-for="Phone" class="control-label">Số Điện Thoại</label>
+                <input asp-for="Phone" type="tel" class="form-control" />
                 <span asp-validation-for="Phone" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Address" class="control-label"></label>
+
+            <!-- Địa chỉ -->
+            <div class="form-group mb-3">
+                <label asp-for="Address" class="control-label">Địa Chỉ</label>
                 <input asp-for="Address" class="form-control" />
                 <span asp-validation-for="Address" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Role" class="control-label"></label>
-                <input asp-for="Role" class="form-control" />
+
+            <!-- Vai trò -->
+            <div class="form-group mb-3">
+                <label asp-for="Role" class="control-label">Vai Trò</label>
+                <select asp-for="Role" class="form-control">
+                    <option value="">-- Chọn Vai Trò --</option>
+                    <option value="Admin">Admin</option>
+                    <option value="User">User</option>
+                </select>
                 <span asp-validation-for="Role" class="text-danger"></span>
             </div>
+
+            <!-- Nút Submit -->
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Tạo" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="btn btn-secondary">Quay Lại</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

@@ -1,0 +1,162 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.UserProfileViewModel
+
+@{
+    ViewData["Title"] = "Trang cá nhân";
+}
+@{
+    Layout = null;
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Thông tin người dùng -->
+        <div class="col-md-4">
+            <div class="card shadow-lg border-info rounded-lg mb-4">
+                <div class="card-header bg-gradient-info text-white text-center position-relative">
+                    <h4><i class="fas fa-user-circle"></i> Thông tin người dùng</h4>
+                    <button class="btn btn-warning btn-sm position-absolute" style="top: 10px; right: 10px;" onclick="editPersonalInfo()">
+                        <i class="fas fa-edit"></i> Chỉnh sửa
+                    </button>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <i class="fas fa-user"></i> <strong>Tên:</strong> @Model.Name
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-envelope"></i> <strong>Email:</strong> @Model.Email
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-phone"></i> <strong>Điện thoại:</strong> @Model.Phone
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-map-marker-alt"></i> <strong>Địa chỉ:</strong> @Model.Address
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-check-circle"></i> <strong>Trạng thái:</strong> @(Model.IsActive ? "<span class='text-success'>Hoạt động</span>" : "<span class='text-danger'>Không hoạt động</span>")
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Đơn hàng đã đặt -->
+        <div class="col-md-8">
+            <div class="card shadow-lg border-success rounded-lg mb-4">
+                <div class="card-header bg-gradient-success text-white text-center">
+                    <h4><i class="fas fa-box-open"></i> Sản phẩm đã đặt</h4>
+                </div>
+                <div class="card-body">
+                    @if (Model.Orders != null && Model.Orders.Count > 0)
+                    {
+                        <table class="table table-hover table-responsive-md text-center">
+                            <thead class="bg-light text-dark">
+                                <tr>
+                                    <th>Mã đơn hàng</th>
+                                    <th>Địa điểm lấy hàng</th>
+                                    <th>Địa điểm giao hàng</th>
+                                    <th>Phương thức vận chuyển</th>
+                                    <th>Trạng thái</th>
+                                    <th>Tổng giá</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in Model.Orders)
+                                {
+                                    <tr>
+                                        <td>@order.OrderId</td>
+                                        <td>@order.PickupLocation</td>
+                                        <td>@order.DeliveryLocation</td>
+                                        <td>@order.ShippingMethod</td>
+                                        <td>
+                                            @if (order.Status == "Đã giao")
+                                            {
+                                                <span class="badge badge-success">@order.Status</span>
+                                            }
+                                            else if (order.Status == "Đang giao")
+                                            {
+                                                <span class="badge badge-warning">@order.Status</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge badge-danger">@order.Status</span>
+                                            }
+                                        </td>
+                                        <td>@order.TotalPrice.ToString("C")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        <p class="text-muted text-center"><i class="fas fa-info-circle"></i> Không có đơn hàng nào.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Custom CSS for modern look -->
+<style>
+    .bg-gradient-info {
+        background: linear-gradient(90deg, #17a2b8, #138496);
+    }
+
+    .bg-gradient-success {
+        background: linear-gradient(90deg, #28a745, #218838);
+    }
+
+    .card-header {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .list-group-item {
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .list-group-item i {
+        margin-right: 10px;
+        color: #17a2b8;
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+
+    .badge {
+        font-size: 0.9rem;
+        padding: 0.5em 0.8em;
+    }
+
+    .badge-success {
+        background-color: #28a745;
+    }
+
+    .badge-warning {
+        background-color: #ffc107;
+        color: #212529;
+    }
+
+    .badge-danger {
+        background-color: #dc3545;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+</style>
+
+<!-- Font Awesome for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+<script>
+function editPersonalInfo() {
+    // Redirect to edit page or show a modal for editing information
+    window.location.href = "/UserProfile/Edit"; // Adjust this URL to the correct edit profile page
+}
+</script>

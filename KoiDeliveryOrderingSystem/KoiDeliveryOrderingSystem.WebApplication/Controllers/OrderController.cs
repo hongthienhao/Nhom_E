@@ -14,12 +14,14 @@ namespace KoiDeliveryOrderingSystem.WebApplication.Controllers
             _orderService = orderService;
         }
 
+        // GET: Tạo đơn hàng
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: Tạo đơn hàng
         [HttpPost]
         public async Task<IActionResult> Create(Order order)
         {
@@ -29,23 +31,52 @@ namespace KoiDeliveryOrderingSystem.WebApplication.Controllers
             {
                 return RedirectToAction("Login", "Account");
             }
-
-            order.CustomerId = userId;  // Gán customer_id
+            // Kiểm tra giá trị shipping_method trước khi lưu
+            if (order.ShippingMethod != "Hàng không" && order.ShippingMethod != "Đường biển" && order.ShippingMethod != "Đường bộ")
+            {
+                ModelState.AddModelError("ShippingMethod", "Phương thức vận chuyển không hợp lệ.");
+                return View(order); // Trả lại view với lỗi nếu phương thức không hợp lệ
+            }
+            order.CustomerId = userId;  // Gán customer_id từ session
             order.OrderDate = DateTime.Now;
             order.Status = "Pending"; // Trạng thái ban đầu của đơn hàng
-            order.TotalPrice = CalculateTotalPrice(order); // Hàm tính tổng giá trị đơn hàng
+            order.TotalPrice = CalculateTotalPrice(order); // Tính tổng giá trị đơn hàng
+
+            // Thêm dịch vụ bổ sung vào order (nếu có)
+            order.AdditionalServices = string.Join(", ", order.AdditionalServices?.Split(',') ?? new string[0]);
 
             await _orderService.AddOrderAsync(order);
 
             return RedirectToAction("Index");
         }
 
+        // Hàm tính tổng giá trị đơn hàng (bạn có thể tùy chỉnh thêm logic tính giá)
         private decimal CalculateTotalPrice(Order order)
         {
-            // Giả sử có logic để tính tổng giá trị đơn hàng dựa trên các chi tiết hoặc dịch vụ
-            return 1000000; // Giá trị ví dụ
+            decimal basePrice = 1000000; // Giá trị cơ bản
+            decimal additionalServicesPrice = 0;
+
+            // Tính thêm giá trị cho các dịch vụ bổ sung
+            if (!string.IsNullOrEmpty(order.AdditionalServices))
+            {
+                if (order.AdditionalServices.Contains("Bảo hiểm hàng hóa"))
+                {
+                    additionalServicesPrice += (order.TotalPrice ?? 0) * 0.02m;
+                }
+                if (order.AdditionalServices.Contains("Theo dõi và kiểm tra thường xuyên"))
+                {
+                    additionalServicesPrice += 1000000; // Dịch vụ theo dõi
+                }
+                if (order.AdditionalServices.Contains("Dịch vụ xử lý thủ tục hải quan"))
+                {
+                    additionalServicesPrice += 5000000; // Dịch vụ thủ tục hải quan
+                }
+            }
+
+            return basePrice + additionalServicesPrice; // Tổng giá trị đơn hàng
         }
 
+        // GET: Danh sách đơn hàng
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -59,6 +90,7 @@ namespace KoiDeliveryOrderingSystem.WebApplication.Controllers
             return View(orders);
         }
 
+        // GET: Chi tiết đơn hàng
         [HttpGet]
         public async Task<IActionResult> Details(int id)
         {
