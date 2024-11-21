@@ -1,0 +1,23 @@
+[33mcommit 7ca186b5b4852b02cb262f37226bbacf239f9494[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Tên của bạn <Email của bạn>
+Date:   Tue Nov 19 07:42:37 2024 +0700
+
+    quan ly chuc nang thong tin ca nhan
+
+[33mcommit 8334fc1d9875da8c0bd646e2d3df9841d5f7f0e7[m
+Author: Diencoder <phanvandien1000@gmail.com>
+Date:   Tue Nov 5 07:31:23 2024 +0700
+
+    chuc nang dat hang va hien thi don hang trong submodule
+
+[33mcommit 41954f9b80d2a3654e56987f6abcb473992f4eb4[m
+Author: Diencoder <phanvandien1000@gmail.com>
+Date:   Sun Oct 27 21:28:38 2024 +0700
+
+    giao dien admin
+
+[33mcommit 29b6931cc8a60050fb5f4af3ce87e9bfedc17f94[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Tên của bạn <Email của bạn>
+Date:   Mon Nov 11 17:51:36 2024 +0700
+
+    chức năng quản lí đơn hàng và quản lí nhân viên
