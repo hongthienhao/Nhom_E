@@ -110,20 +110,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UTH/HK-4/CNPM/Test/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Delivery/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXERlbGl2ZXJ5XERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/UTH/HK-4/CNPM/Test/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Delivery/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXERlbGl2ZXJ5XEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/UTH/HK-4/CNPM/Test/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UTH/HK-4/CNPM/Test/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/OrderDetail/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXE9yZGVyRGV0YWlsXEluZGV4LmNzaHRtbA==
+[D:/UTH/HK-4/CNPM/Test/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXE9yZGVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UTH/HK-4/CNPM/Test/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGVsaXZlcmluZ1N0YWZmXFZpZXdzXE9yZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/UTH/HK-4/CNPM/Test/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem/KoiDeliveryOrderingSystem.WebApplication/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml]

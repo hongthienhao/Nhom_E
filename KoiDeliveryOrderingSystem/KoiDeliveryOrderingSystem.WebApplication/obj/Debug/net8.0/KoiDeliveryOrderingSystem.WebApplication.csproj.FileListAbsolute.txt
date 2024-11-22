@@ -3112,7 +3112,6 @@ D:\UTH\HK-4\CNPM\Test\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDel
 D:\UTH\HK-4\CNPM\Test\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\obj\Debug\net8.0\KoiDeliveryOrderingSystem.WebApplication.MvcApplicationPartsAssemblyInfo.cache
 D:\UTH\HK-4\CNPM\Test\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\obj\Debug\net8.0\KoiDeliveryOrderingSystem.WebApplication.RazorAssemblyInfo.cache
 D:\UTH\HK-4\CNPM\Test\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\obj\Debug\net8.0\KoiDeliveryOrderingSystem.WebApplication.RazorAssemblyInfo.cs
-D:\UTH\HK-4\CNPM\Test\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\obj\Debug\net8.0\KoiDeliveryOrderingSystem.WebApplication.sourcelink.json
 D:\UTH\HK-4\CNPM\Test\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\obj\Debug\net8.0\staticwebassets.build.json
 D:\UTH\HK-4\CNPM\Test\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\obj\Debug\net8.0\staticwebassets.development.json
 D:\UTH\HK-4\CNPM\Test\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem\KoiDeliveryOrderingSystem.WebApplication\obj\Debug\net8.0\staticwebassets\msbuild.KoiDeliveryOrderingSystem.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props

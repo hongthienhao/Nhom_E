@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Chi Tiết Đơn Hàng";
+    Layout = "~/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-primary mb-4">Chi Tiết Đơn Hàng</h2>
+
+<!-- Thông Tin Đơn Hàng -->
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5>Thông Tin Đơn Hàng</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Mã Đơn:</strong> @Model.OrderId</p>
+        <p>
+            <strong>Trạng Thái:</strong>
+            @if (Model.Status == "Pending")
+            {
+                <span class="badge bg-warning text-dark">Đang Chờ</span>
+            }
+            else if (Model.Status == "Shipped")
+            {
+                <span class="badge bg-info text-white">Đã Giao</span>
+            }
+            else if (Model.Status == "Delivered")
+            {
+                <span class="badge bg-success">Hoàn Tất</span>
+            }
+        </p>
+    </div>
+</div>
+
+<!-- Thông Tin Khách Hàng -->
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-secondary text-white">
+        <h5>Thông Tin Khách Hàng</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Tên Khách Hàng:</strong> @(Model.Customer?.Name ?? "N/A")</p>
+        <p><strong>Email:</strong> @(Model.Customer?.Email ?? "N/A")</p>
+        <p><strong>Số Điện Thoại:</strong> @(Model.Customer?.Phone ?? "N/A")</p>
+        <p><strong>Địa Chỉ:</strong> @(Model.Customer?.Address ?? "N/A")</p>
+    </div>
+</div>
+
+<!-- Thông Tin Vận Chuyển -->
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-info text-white">
+        <h5>Thông Tin Vận Chuyển</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Địa Chỉ Lấy Hàng:</strong> @Model.PickupLocation</p>
+        <p><strong>Địa Điểm Giao Hàng:</strong> @Model.DeliveryLocation</p>
+        <p><strong>Phương Thức Vận Chuyển:</strong> @Model.ShippingMethod</p>
+    </div>
+</div>
+
+<!-- Chi Tiết Hàng Hóa -->
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-success text-white">
+        <h5>Chi Tiết Hàng Hóa</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Khối Lượng:</strong> @($"{Model.TotalWeight} kg")</p>
+        <p><strong>Số Lượng:</strong> @(Model.TotalQuantity ?? 0)</p>
+    </div>
+</div>
+
+<!-- Nút Quay Lại -->
+<div class="text-end">
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Quay Lại
+    </a>
+</div>

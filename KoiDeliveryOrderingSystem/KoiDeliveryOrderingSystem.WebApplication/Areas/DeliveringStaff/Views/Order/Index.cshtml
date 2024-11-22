@@ -1,6 +1,8 @@
-﻿@{
+﻿@model IEnumerable<KoiDeliveryOrderingSystem.Repositories.Order>
+
+@{
     ViewData["Title"] = "Danh Sách Đơn Hàng";
-    Layout = "~/Areas/SalesStaff/Views/Shared/_Layout.cshtml";
+    Layout = "~/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml";
 }
 
 <h2 class="text-primary mb-4">Danh Sách Đơn Hàng</h2>
@@ -16,6 +18,8 @@
                         <th>Trạng Thái</th>
                         <th>Phương Thức Vận Chuyển</th>
                         <th>Tổng Số Tiền</th>
+                        <th>Địa Điểm Giao Hàng</th>
+                        <th>Thời Gian Giao Hàng Dự Kiến</th>
                         <th>Hành Động</th>
                     </tr>
                 </thead>
@@ -41,10 +45,12 @@
                             </td>
                             <td>@order.ShippingMethod</td>
                             <td>@order.TotalPrice?.ToString("C")</td>
+                            <td>@order.DeliveryLocation</td>
+                            <td>@order.EstimatedDeliveryDate?.ToString("dd/MM/yyyy HH:mm")</td>
                             <td>
                                 <div class="btn-group" role="group">
                                     <!-- Xem Chi Tiết -->
-                                    <a href="/SalesStaff/Order/Details/@order.OrderId" class="btn btn-primary btn-sm">
+                                    <a href="/DeliveringStaff/Order/Details/@order.OrderId" class="btn btn-primary btn-sm">
                                         <i class="fas fa-eye"></i> Xem
                                     </a>
                                 </div>

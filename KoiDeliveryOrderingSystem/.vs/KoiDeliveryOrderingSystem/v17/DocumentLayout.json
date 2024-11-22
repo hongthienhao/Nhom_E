@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -25,18 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\views\\delivery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\views\\delivery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\views\\delivery\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\views\\delivery\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FE9947C-61B9-44B5-9403-908E537AA5FF}|KoiDeliveryOrderingSystem.Respositories\\KoiDeliveryOrderingSystem.Repositories.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.respositories\\implementations\\deliveryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -273,10 +265,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\views\\userprofile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\views\\userprofile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C532BAE-6AFE-44EC-9C15-230924235006}|KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj|solutionrelative:koideliveryorderingsystem.webapplication\\areas\\deliveringstaff\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E5FA6D8-8961-43BD-A06A-EA5346258CB6}|KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj|d:\\uth\\hk-4\\cnpm\\test\\koideliveryorderingsystem\\koideliveryorderingsystem\\koideliveryorderingsystem.services\\interfaces\\ideliverystatushistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -574,12 +562,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -589,8 +573,109 @@
               "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T11:54:45.847Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "IDeliveryRepository.cs",
+              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDeliveryRepository.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDeliveryRepository.cs",
+              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDeliveryRepository.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDeliveryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:40:05.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
+              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T11:32:27.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
+              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T14:34:35.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Create.cshtml",
+              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Create.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T11:57:47.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALMBAAAAAAAAAAAAADICAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:09:30.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T03:33:19.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "signup.css",
+              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
+              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
+              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
+              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T03:35:04.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DeliveryRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\DeliveryRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\DeliveryRepository.cs",
@@ -603,115 +688,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "IDeliveryRepository.cs",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDeliveryRepository.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDeliveryRepository.cs",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDeliveryRepository.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDeliveryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:40:05.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAWwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T11:32:27.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-29T14:34:35.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Create.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Create.cshtml",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Create.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T11:57:47.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEUCAAAAAAAAAAAAwGQCAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T15:09:30.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "login.css",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-22T03:33:19.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "signup.css",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-22T03:35:04.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DeliveryController.cs",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Controllers\\DeliveryController.cs",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Controllers\\DeliveryController.cs",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Controllers\\DeliveryController.cs",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Controllers\\DeliveryController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAmwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:41:19.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Delivery\\Index.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Delivery\\Index.cshtml",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Delivery\\Index.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Delivery\\Index.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T01:09:30.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "DeliveryService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\DeliveryService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\DeliveryService.cs",
@@ -723,19 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Delivery\\Details.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Delivery\\Details.cshtml",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Delivery\\Details.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Delivery\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T01:46:46.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "IDeliveryService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IDeliveryService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IDeliveryService.cs",
@@ -747,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "DashboardRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\DashboardRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\DashboardRepository.cs",
@@ -759,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Order\\Index.cshtml",
@@ -771,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Admin\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Admin\\Dashboard.cshtml",
@@ -783,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "Delivery.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Delivery.cs",
@@ -795,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Home\\Index.cshtml",
@@ -807,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Index.cshtml",
@@ -819,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Order\\Details.cshtml",
@@ -831,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Feedback\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Feedback\\Index.cshtml",
@@ -843,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Index.cshtml",
@@ -855,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Customer\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Customer\\Index.cshtml",
@@ -867,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Customer\\Details.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Customer\\Details.cshtml",
@@ -879,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\CustomerController.cs",
@@ -891,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "CustomerDetailsViewModel.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\CustomerDetailsViewModel.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\CustomerDetailsViewModel.cs",
@@ -903,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IOrderService.cs",
@@ -915,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Customer\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Customer\\Edit.cshtml",
@@ -927,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Details.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Details.cshtml",
@@ -939,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IOrderRepository.cs",
@@ -951,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\OrderService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\OrderService.cs",
@@ -963,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\OrderRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\OrderRepository.cs",
@@ -975,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Edit.cshtml",
@@ -987,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\ICustomerService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\ICustomerService.cs",
@@ -999,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\CustomerService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\CustomerService.cs",
@@ -1011,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\ICustomerRepository.cs",
@@ -1023,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\CustomerRepository.cs",
@@ -1035,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IEmployeeService.cs",
@@ -1047,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 36,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\EmployeeService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\EmployeeService.cs",
@@ -1059,7 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 37,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\EmployeeRepository.cs",
@@ -1071,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 38,
               "Title": "EditCustomerViewModel.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\EditCustomerViewModel.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\EditCustomerViewModel.cs",
@@ -1083,7 +1047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "EditEmployeeViewModel.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\EditEmployeeViewModel.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\EditEmployeeViewModel.cs",
@@ -1095,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 40,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IEmployeeRepository.cs",
@@ -1107,7 +1071,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 41,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -1119,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 45,
               "Title": "EditShippingViewModel.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\EditShippingViewModel.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\EditShippingViewModel.cs",
@@ -1131,7 +1095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 42,
               "Title": "KoiDeliveryOrderingSystem.WebApplication.csproj",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\KoiDeliveryOrderingSystem.WebApplication.csproj",
@@ -1143,7 +1107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 43,
               "Title": "EditShipping.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Order\\EditShipping.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Order\\EditShipping.cshtml",
@@ -1155,7 +1119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 44,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Order.cs",
@@ -1167,7 +1131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 46,
               "Title": "UserProfileViewModel.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\UserProfileViewModel.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\UserProfileViewModel.cs",
@@ -1179,7 +1143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 47,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\OrderController.cs",
@@ -1191,7 +1155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 48,
               "Title": "FeedbackController.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\FeedbackController.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\FeedbackController.cs",
@@ -1203,7 +1167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 49,
               "Title": "FeedbackServices.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\FeedbackServices.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\FeedbackServices.cs",
@@ -1215,7 +1179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 50,
               "Title": "FeedbackRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\FeedbackRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\FeedbackRepository.cs",
@@ -1227,7 +1191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 51,
               "Title": "IFeedbackRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IFeedbackRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IFeedbackRepository.cs",
@@ -1239,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 52,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\AdminController.cs",
@@ -1251,7 +1215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 53,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\DashboardService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\DashboardService.cs",
@@ -1263,7 +1227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 54,
               "Title": "MonthlyReport.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\MonthlyReport.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\MonthlyReport.cs",
@@ -1275,7 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 55,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Create.cshtml",
@@ -1287,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 56,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IUserRepository.cs",
@@ -1299,7 +1263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 57,
               "Title": "ServiceRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\ServiceRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\ServiceRepository.cs",
@@ -1311,7 +1275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 58,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\SignUp.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\SignUp.cshtml",
@@ -1323,7 +1287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 59,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IAccountService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IAccountService.cs",
@@ -1335,7 +1299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 60,
               "Title": "AccountService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\AccountService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\AccountService.cs",
@@ -1347,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 61,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\UserRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\UserRepository.cs",
@@ -1359,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 62,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\User.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\User.cs",
@@ -1371,7 +1335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 63,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Employee.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Employee.cs",
@@ -1383,7 +1347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 64,
               "Title": "EditUserViewModel.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\EditUserViewModel.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\EditUserViewModel.cs",
@@ -1395,7 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 65,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\UserProfile\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\UserProfile\\Edit.cshtml",
@@ -1407,19 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\DeliveringStaff\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T08:22:47.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 66,
               "Title": "IDeliveryStatusHistoryService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IDeliveryStatusHistoryService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IDeliveryStatusHistoryService.cs",
@@ -1431,7 +1383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 67,
               "Title": "_LayoutPrice.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_LayoutPrice.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_LayoutPrice.cshtml",
@@ -1443,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 68,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\UserService.cs",
@@ -1455,7 +1407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 69,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IUserService.cs",
@@ -1467,7 +1419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 70,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
@@ -1479,7 +1431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 71,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -1491,7 +1443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 72,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Feedback\\Details.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Feedback\\Details.cshtml",
@@ -1503,7 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 73,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\UserProfile\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\UserProfile\\Index.cshtml",
@@ -1515,7 +1467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 74,
               "Title": "Feedback.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\UserProfile\\Feedback.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\UserProfile\\Feedback.cshtml",
@@ -1527,7 +1479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 75,
               "Title": "Feedback.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Feedback.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Feedback.cs",
@@ -1539,7 +1491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 76,
               "Title": "IFeedbackServices.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IFeedbackServices.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IFeedbackServices.cs",
@@ -1551,7 +1503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 77,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\ErrorViewModel.cs",
@@ -1563,7 +1515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 78,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Index.cshtml",
@@ -1575,7 +1527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 79,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewStart.cshtml",
@@ -1587,7 +1539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 80,
               "Title": "_layoutProfile.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_layoutProfile.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_layoutProfile.cshtml",
@@ -1599,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 81,
               "Title": "IServiceRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IServiceRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IServiceRepository.cs",
@@ -1611,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 82,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\OrderDetail.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\OrderDetail.cs",
@@ -1623,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 83,
               "Title": "ServicePricingRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\ServicePricingRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\ServicePricingRepository.cs",
@@ -1635,7 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 84,
               "Title": "OrderDetailRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Implementations\\OrderDetailRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Implementations\\OrderDetailRepository.cs",
@@ -1647,7 +1599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 85,
               "Title": "Support.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Support.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Support.cshtml",
@@ -1659,7 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 86,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\Contact.cshtml",
@@ -1671,7 +1623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 87,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\ScaffoldingReadMe.txt",
@@ -1683,7 +1635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 91,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Delete.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\Employee\\Delete.cshtml",
@@ -1695,7 +1647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 132,
               "Title": "Contact.css",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\Contact.css",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\Contact.css",
@@ -1707,7 +1659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 133,
               "Title": "style.css",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\style.css",
@@ -1719,7 +1671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 92,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Index.cshtml",
@@ -1731,7 +1683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 88,
               "Title": "contact.html",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\contact.html",
               "RelativeDocumentMoniker": "..\\..\\..\\contact.html",
@@ -1742,7 +1694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 89,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\_Layout.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\_Layout.cshtml",
@@ -1753,7 +1705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 90,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Home\\About.cshtml",
@@ -1765,7 +1717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 93,
               "Title": "KoiDeliveryOrderingSystem.Services.csproj",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\KoiDeliveryOrderingSystem.Services.csproj",
@@ -1777,7 +1729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 95,
               "Title": "IOrderDetailRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IOrderDetailRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IOrderDetailRepository.cs",
@@ -1789,7 +1741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 94,
               "Title": "ServiceService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\ServiceService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\ServiceService.cs",
@@ -1801,7 +1753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 96,
               "Title": "IServiceService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IServiceService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IServiceService.cs",
@@ -1813,7 +1765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 97,
               "Title": "ServicePricingController.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\ServicePricingController.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Controllers\\ServicePricingController.cs",
@@ -1825,7 +1777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 98,
               "Title": "IServicePricingService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IServicePricingService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IServicePricingService.cs",
@@ -1837,7 +1789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 99,
               "Title": "ServicePricingService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\ServicePricingService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\ServicePricingService.cs",
@@ -1849,7 +1801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 100,
               "Title": "IServicePricingRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IServicePricingRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IServicePricingRepository.cs",
@@ -1861,7 +1813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 101,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Edit.cshtml",
@@ -1873,7 +1825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 103,
               "Title": "ServicePricing.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\ServicePricing.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\ServicePricing.cs",
@@ -1885,7 +1837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 102,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Edit.cshtml",
@@ -1897,7 +1849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 104,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Delete.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Areas\\Admin\\Views\\ServicePricing\\Delete.cshtml",
@@ -1909,7 +1861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 105,
               "Title": "OrderDetailService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\OrderDetailService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\OrderDetailService.cs",
@@ -1921,7 +1873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 106,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Create.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Create.cshtml",
@@ -1933,7 +1885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 107,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Account\\Login.cshtml",
@@ -1945,7 +1897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 108,
               "Title": "DeliveryStatusHistoryService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Implementations\\DeliveryStatusHistoryService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Implementations\\DeliveryStatusHistoryService.cs",
@@ -1957,7 +1909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 134,
               "Title": "login.css",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\login.css",
@@ -1969,7 +1921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 109,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Price\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Price\\Index.cshtml",
@@ -1981,7 +1933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 110,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -1993,7 +1945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 135,
               "Title": "login.html",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\login.html",
@@ -2004,7 +1956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 136,
               "Title": "index.html",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\index.html",
@@ -2015,7 +1967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 137,
               "Title": "signup.css",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\css\\signup.css",
@@ -2026,7 +1978,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 111,
               "Title": "IDashboardService.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Services\\Interfaces\\IDashboardService.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Services\\Interfaces\\IDashboardService.cs",
@@ -2037,7 +1989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 112,
               "Title": "IDashboardRepository.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDashboardRepository.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Interfaces\\IDashboardRepository.cs",
@@ -2048,7 +2000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 113,
               "Title": "FeedbackReport.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\FeedbackReport.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\FeedbackReport.cs",
@@ -2059,7 +2011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 114,
               "Title": "Permission.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Permission.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Permission.cs",
@@ -2070,7 +2022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 115,
               "Title": "DeliveryStatusHistory.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\DeliveryStatusHistory.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\DeliveryStatusHistory.cs",
@@ -2081,7 +2033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 116,
               "Title": "Service.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Service.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Service.cs",
@@ -2092,7 +2044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 117,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Create.cshtml",
@@ -2103,7 +2055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 118,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Edit.cshtml",
@@ -2114,7 +2066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 119,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Index.cshtml",
@@ -2125,7 +2077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 120,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Delete.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Delete.cshtml",
@@ -2136,7 +2088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 121,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\_ViewImports.cshtml",
@@ -2147,7 +2099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 138,
               "Title": "styles.css",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\Assets\\admin\\css\\styles.css",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\Assets\\admin\\css\\styles.css",
@@ -2158,7 +2110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 122,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Delete.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Delete.cshtml",
@@ -2169,7 +2121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 123,
               "Title": "HTQLKoiContext.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\HTQLKoiContext.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\HTQLKoiContext.cs",
@@ -2180,7 +2132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 124,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Order\\Details.cshtml",
@@ -2191,7 +2143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 125,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Details.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Users\\Details.cshtml",
@@ -2202,7 +2154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 126,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.WebApplication\\Views\\Shared\\Error.cshtml",
@@ -2213,7 +2165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 127,
               "Title": "Invoice.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Invoice.cs",
@@ -2224,7 +2176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 128,
               "Title": "Transaction.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Transaction.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Transaction.cs",
@@ -2235,7 +2187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 129,
               "Title": "RolePermission.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\RolePermission.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\RolePermission.cs",
@@ -2246,7 +2198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 130,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\UTH\\HK-4\\CNPM\\Test\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.Respositories\\Data\\Role.cs",
               "RelativeDocumentMoniker": "KoiDeliveryOrderingSystem.Respositories\\Data\\Role.cs",
@@ -2257,7 +2209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 131,
               "Title": "HTQLKoiContext.cs",
               "DocumentMoniker": "D:\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Data\\HTQLKoiContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\Data\\HTQLKoiContext.cs",
@@ -2268,7 +2220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 139,
               "Title": "signup.html",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\signup.html",
@@ -2279,7 +2231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 140,
               "Title": "about.html",
               "DocumentMoniker": "D:\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\about.html",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\video smart\\New folder\\New folder\\New folder\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem\\KoiDeliveryOrderingSystem.WebApplication\\wwwroot\\about.html",
