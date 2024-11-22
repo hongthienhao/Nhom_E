@@ -1,0 +1,27 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.Order
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Đơn Hàng</title>
+    <link rel="stylesheet" href="~/css/StyleOrder.css" />
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Chi Tiết Đơn Hàng</h2>
+
+        <div class="detail-container">
+            <p><strong>Mã đơn hàng:</strong> @Model.OrderId</p>
+            <p><strong>Địa điểm lấy hàng:</strong> @Model.PickupLocation</p>
+            <p><strong>Địa điểm giao hàng:</strong> @Model.DeliveryLocation</p>
+            <p><strong>Phương thức vận chuyển:</strong> @Model.ShippingMethod</p>
+            <p><strong>Trạng thái:</strong> @Model.Status</p>
+            <p><strong>Tổng giá:</strong> @Model.TotalPrice</p>
+        </div>
+    </div>
+</body>
+</html>

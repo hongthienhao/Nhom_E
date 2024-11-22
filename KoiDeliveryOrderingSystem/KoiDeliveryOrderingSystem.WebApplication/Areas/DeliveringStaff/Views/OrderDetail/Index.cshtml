@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Danh sách chi tiết đơn hàng";
+    Layout = "~/Areas/DeliveringStaff/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<KoiDeliveryOrderingSystem.Repositories.OrderDetail>
+
+<h2 class="text-primary mb-4">Danh sách chi tiết đơn hàng</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Loại cá Koi</th>
+                <th>Số lượng</th>
+                <th>Cân nặng</th>
+                <th>Giá mỗi đơn vị</th>
+                <th>Tổng giá trị</th>
+                <th>Trạng thái</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var orderDetail in Model)
+            {
+                <tr>
+                    <td>@orderDetail.OrderDetailId</td>
+                    <td>@orderDetail.KoiFishType</td>
+                    <td>@orderDetail.Quantity</td>
+                    <td>@orderDetail.Weight</td>
+                    <td>@orderDetail.PricePerUnit</td>
+                    <td>@orderDetail.TotalPrice</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

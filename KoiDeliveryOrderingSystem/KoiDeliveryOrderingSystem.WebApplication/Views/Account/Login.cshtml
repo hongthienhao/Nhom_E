@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Đăng Nhập";
+    Layout = null; // Không sử dụng layout mặc định
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="icon" href="~/img/logoweb.jpg" type="image/png">
+    <link rel="stylesheet" href="@Url.Content("~/css/login.css")">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <form class="login" action="/Account/Login" method="post">
+        <h1>Đăng nhập</h1>
+        <br>
+
+        <!-- Phần này không cần nếu không sử dụng tên người dùng để xác thực -->
+        <!-- <p><i class="fa fa-user"></i> Tên người dùng </p>
+        <input type="text" placeholder="Enter name / phone" class="color" id="username" name="username"> -->
+
+        <p><i class="fas fa-envelope"></i> Email</p>
+        <input type="text" placeholder="Enter email" class="color" id="email" name="email" required>
+
+        <p><i class="fa fa-key"></i> Mật khẩu</p>
+        <input type="password" placeholder="Enter Password" class="color" id="password" name="password" required>
+
+        <br><br>
+
+        <input type="submit" value="Đăng Nhập" id="submit">
+        <a href="/Account/SignUp">Đăng kí tài khoản</a>
+
+        @if (TempData["LoginError"] != null)
+        {
+            <div class="alert alert-danger mt-3">
+                @TempData["LoginError"]
+            </div>
+        }
+    </form>
+</body>
+</html>

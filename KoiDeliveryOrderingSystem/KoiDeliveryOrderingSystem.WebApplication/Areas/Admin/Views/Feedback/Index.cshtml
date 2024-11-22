@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Danh sách Phản Hồi";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<KoiDeliveryOrderingSystem.Repositories.Feedback>
+
+<div class="text-center">
+    <h2 class="text-primary mb-4">Danh sách phản hồi</h2>
+</div>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<div class="table-responsive">
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Khách hàng</th>
+                <th>Dịch vụ</th>
+                <th>Đánh giá</th>
+                <th>Bình luận</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var feedback in Model)
+                {
+                    <tr>
+                        <td>@feedback.FeedbackId</td>
+                        <td>@(feedback.User?.Name ?? "Không có thông tin")</td>
+                        <td>@(feedback.Service?.Name ?? "Không có thông tin")</td>
+                        <td class="text-center"><strong>@feedback.Rating</strong></td>
+                        <td>@feedback.Comment</td>
+                        <td class="text-center">
+                            @if (feedback.Resolved ?? false)
+                            {
+                                <span class="badge bg-success">Đã xử lý</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Chưa xử lý</span>
+                            }
+                        </td>
+                        <td class="text-center d-flex justify-content-center">
+                            <a href="@Url.Action("Details", "Feedback", new { Area = "Admin", id = feedback.FeedbackId })" class="btn btn-info btn-sm me-2">
+                                <i class="fas fa-eye"></i> Chi tiết
+                            </a>
+                           
+
+                            <!-- Đánh dấu đã xử lý hoặc hủy xử lý -->
+                            @if (feedback.Resolved ?? false)
+                            {
+                                <form action="@Url.Action("UpdateResolvedStatus", "Feedback", new { Area = "Admin", feedbackId = feedback.FeedbackId })" method="post" style="display:inline;">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-warning btn-sm me-2">
+                                        <i class="fas fa-undo"></i> Hủy xử lý
+                                    </button>
+                                </form>
+                            }
+                            else
+                            {
+                                <form action="@Url.Action("UpdateResolvedStatus", "Feedback", new { Area = "Admin", feedbackId = feedback.FeedbackId })" method="post" style="display:inline;">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-success btn-sm me-2">
+                                        <i class="fas fa-check-circle"></i> Đánh dấu đã xử lý
+                                    </button>
+                                </form>
+                            }
+
+                            <!-- Xóa phản hồi -->
+                            <form action="@Url.Action("Delete", "Feedback", new { Area = "Admin", id = feedback.FeedbackId })" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa?');">
+                                    <i class="fas fa-trash-alt"></i> Xóa
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center text-muted">Không có phản hồi nào được tìm thấy</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

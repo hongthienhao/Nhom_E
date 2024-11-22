@@ -1,0 +1,75 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.Order
+
+@{
+    ViewData["Title"] = "Chỉnh Sửa Thông Tin Vận Chuyển";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary mb-4">Chỉnh Sửa Thông Tin Vận Chuyển</h2>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+
+    <form asp-action="EditShipping" asp-controller="Order" asp-area="Admin" method="post" class="border p-4 shadow-sm rounded bg-light">
+        <!-- Hidden field để gửi OrderId -->
+        <input type="hidden" asp-for="OrderId" />
+
+        <!-- Địa Chỉ Lấy Hàng -->
+        <div class="form-group mb-3">
+            <label for="PickupLocation" class="form-label">Địa Chỉ Lấy Hàng</label>
+            <input asp-for="PickupLocation" class="form-control" id="PickupLocation" placeholder="Nhập địa chỉ lấy hàng" />
+            <span asp-validation-for="PickupLocation" class="text-danger small"></span>
+        </div>
+
+        <!-- Địa Điểm Giao Hàng -->
+        <div class="form-group mb-3">
+            <label for="DeliveryLocation" class="form-label">Địa Điểm Giao Hàng</label>
+            <input asp-for="DeliveryLocation" class="form-control" id="DeliveryLocation" placeholder="Nhập địa điểm giao hàng" />
+            <span asp-validation-for="DeliveryLocation" class="text-danger small"></span>
+        </div>
+
+        <!-- Phương Thức Vận Chuyển -->
+        <div class="form-group mb-3">
+            <label for="ShippingMethod" class="form-label">Phương Thức Vận Chuyển</label>
+            <select asp-for="ShippingMethod" class="form-control" id="ShippingMethod">
+                <option value="Đường bộ" @(Model.ShippingMethod == "Đường bộ" ? "selected" : "")>Đường bộ</option>
+                <option value="Đường biển" @(Model.ShippingMethod == "Đường biển" ? "selected" : "")>Đường biển</option>
+                <option value="Đường hàng không" @(Model.ShippingMethod == "Đường hàng không" ? "selected" : "")>Đường hàng không</option>
+            </select>
+            <span asp-validation-for="ShippingMethod" class="text-danger small"></span>
+        </div>
+
+        <!-- Khối Lượng -->
+        <div class="form-group mb-3">
+            <label for="TotalWeight" class="form-label">Khối Lượng (kg)</label>
+            <input asp-for="TotalWeight" class="form-control" id="TotalWeight" placeholder="Nhập khối lượng" />
+            <span asp-validation-for="TotalWeight" class="text-danger small"></span>
+        </div>
+
+        <!-- Số Lượng -->
+        <div class="form-group mb-3">
+            <label for="TotalQuantity" class="form-label">Số Lượng</label>
+            <input asp-for="TotalQuantity" class="form-control" id="TotalQuantity" placeholder="Nhập số lượng" />
+            <span asp-validation-for="TotalQuantity" class="text-danger small"></span>
+        </div>
+
+        <!-- Nút Lưu và Hủy -->
+        <div class="d-flex justify-content-between">
+            <a href="@Url.Action("Details", "Order", new { area = "Admin", id = Model.OrderId })" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Hủy
+            </a>
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-save"></i> Lưu Thay Đổi
+            </button>
+        </div>
+    </form>
+
+</div>

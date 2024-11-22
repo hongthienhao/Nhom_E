@@ -1,0 +1,84 @@
+﻿/* Bố cục chung */
+.about-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Bố cục cho phần header: văn bản và hình ảnh */
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+    .about-header .about-text {
+        width: 70%; /* Phần văn bản chiếm 70% chiều rộng */
+    }
+
+        .about-header .about-text h1 {
+            font-size: 40px; /* Tăng kích thước chữ cho tiêu đề chính */
+            margin-bottom: 10px;
+        }
+
+        .about-header .about-text p {
+            font-size: 18px; /* Tăng kích thước chữ cho đoạn văn */
+            line-height: 1.6;
+        }
+
+    /* Hình ảnh bên phải */
+    .about-header .about-image {
+        width: 70%; /* Hình ảnh chiếm 30% chiều rộng */
+        text-align: right;
+    }
+
+        .about-header .about-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+/* Phần nội dung (Sứ mệnh, Tầm nhìn...) */
+.about-content {
+    padding: 20px 0;
+}
+
+    /* Tiêu đề trong nội dung */
+    .about-content h2 {
+        font-size: 36px; /* Tăng kích thước chữ cho tiêu đề phụ */
+        color: #333;
+        margin-top: 30px;
+    }
+
+    /* Các đoạn văn bản trong nội dung */
+    .about-content p {
+        font-size: 18px; /* Tăng kích thước chữ cho đoạn văn */
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    /* Danh sách mục */
+    .about-content ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+        .about-content ul li {
+            font-size: 18px; /* Tăng kích thước chữ cho các mục trong danh sách */
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+/* Hình ảnh trong các phần tiếp theo */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }

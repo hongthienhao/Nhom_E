@@ -1,0 +1,125 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.FeedbackViewModel
+
+@{
+    ViewData["Title"] = "Đánh giá dịch vụ";
+    Layout = "~/Views/Shared/_layoutProfile.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card shadow-lg border-info rounded-lg mb-4">
+                <div class="card-header bg-gradient-info text-white text-center">
+                    <h4><i class="fas fa-star"></i> Đánh giá dịch vụ cho đơn hàng @Model.OrderId</h4>
+                </div>
+                <div class="card-body">
+                    @using (Html.BeginForm("SubmitFeedback", "UserProfile", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(m => m.OrderId)
+                        @Html.HiddenFor(m => m.UserId)
+
+                        <!-- Dropdown chọn dịch vụ -->
+                        <div class="form-group">
+                            <label for="ServiceId"><i class="fas fa-tools"></i> Chọn dịch vụ</label>
+                            @Html.DropDownListFor(
+                                     m => m.ServiceId,
+                                     new SelectList(Model.Services, "Key", "Value"),
+                                     "Chọn dịch vụ",
+                                     new { @class = "form-control", required = "required" }
+                                     )
+                        </div>
+
+                        <!-- Dropdown chọn đánh giá -->
+                        <div class="form-group mt-3">
+                            <label for="Rating"><i class="fas fa-star"></i> Đánh giá</label>
+                            @Html.DropDownListFor(
+                                     m => m.Rating,
+                                     new SelectList(new[] { 1, 2, 3, 4, 5 }),
+                                     "Chọn đánh giá",
+                                     new { @class = "form-control", required = "required" }
+                                     )
+                        </div>
+
+                        <!-- Textarea bình luận -->
+                        <div class="form-group mt-3">
+                            <label for="Comment"><i class="fas fa-comment"></i> Bình luận</label>
+                            @Html.TextAreaFor(
+                                     m => m.Comment,
+                                     new
+                                     {
+                                         @class = "form-control",
+                                         @rows = "4",
+                                         placeholder = "Nhập phản hồi của bạn",
+                                         required = "required"
+                                     }
+                                     )
+                        </div>
+
+                        <!-- Nút gửi -->
+                        <button type="submit" class="btn btn-success mt-4 w-100">
+                            <i class="fas fa-paper-plane"></i> Gửi phản hồi
+                        </button>
+
+                        <!-- Nút quay lại -->
+                        <a href="javascript:history.back()" class="btn btn-secondary mt-3 w-100">
+                            <i class="fas fa-arrow-left"></i> Quay lại
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Custom CSS -->
+<style>
+    .bg-gradient-info {
+        background: linear-gradient(90deg, #17a2b8, #138496);
+    }
+
+    .card-header {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .form-control {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+
+    .btn-success {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        font-weight: bold;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+    .btn-secondary {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+        font-weight: bold;
+    }
+
+        .btn-secondary:hover {
+            background-color: #6c757d;
+        }
+
+    .form-group i {
+        margin-right: 10px;
+    }
+
+    textarea.form-control {
+        resize: none;
+    }
+</style>
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">

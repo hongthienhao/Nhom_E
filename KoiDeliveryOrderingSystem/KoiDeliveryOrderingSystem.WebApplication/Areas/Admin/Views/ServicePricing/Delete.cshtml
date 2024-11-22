@@ -1,0 +1,25 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.ServicePricing
+
+@{
+    ViewData["Title"] = "Xóa Bảng Giá Dịch Vụ";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Xác Nhận Xóa Bảng Giá Dịch Vụ</h2>
+
+<p>Bạn có chắc chắn muốn xóa bảng giá dịch vụ này không?</p>
+
+<div class="form-group">
+    <label><strong>Dịch vụ:</strong> @Model.Service.Name</label>
+    <br />
+    <label><strong>Giá:</strong> @Model.Price.ToString("C0")</label>
+    <br />
+    <label><strong>Ngày hiệu lực:</strong> @Model.EffectiveDate?.ToString("dd/MM/yyyy")</label>
+    <br />
+    <label><strong>Điều kiện:</strong> @Model.Conditions</label>
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a href="@Url.Action("Index", "ServicePricing")" class="btn btn-secondary">Quay lại</a>
+</form>

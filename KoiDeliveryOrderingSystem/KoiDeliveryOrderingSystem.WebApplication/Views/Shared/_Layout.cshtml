@@ -1,0 +1,613 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"] - KoiDelivery</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" href="@Url.Content("~/img/logoweb.jpg")" type="image/png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="@Url.Content("~/lib/animate/animate.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/lib/owlcarousel/assets/owl.carousel.min.css")" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="@Url.Content("~/css/bootstrap.min.css")" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="@Url.Content("~/css/style.css")" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="/" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white">KoiDelivery</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="@Url.Action("Index", "Home")" class="nav-item nav-link active">Trang chủ</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        DỊCH VỤ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="https://localhost:7040/Order/Create">Đặt hàng</a></li>
+                        <li><a class="dropdown-item" href="https://localhost:7040/Order/Index">Xem đơn hàng đã đặt</a></li>
+                    </ul>
+                </li>
+                <a href="@Url.Action("Support", "Home")" class="nav-item nav-link">Hỗ trợ</a>
+                <a href="@Url.Action("Contact", "Home")" class="nav-item nav-link">Liên hệ</a>
+                <a href="https://localhost:7040/UserProfile/Index" class="nav-item nav-link">Thông tin cá nhân</a>
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block">
+                <a href="https://localhost:7040/Account/Login">
+                    <i class="fas fa-user login-icon" title="Đăng nhập"
+                       style="color: inherit; transition: color 0.3s; cursor: pointer;"
+                       onmouseover="this.style.color='#FF3E41'"
+                       onmouseout="this.style.color='inherit'"></i>
+                </a>
+            </h4>
+        </div>
+
+
+    </nav>
+    <!-- Navbar End -->
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <!-- Đảm bảo đường dẫn ảnh trong thẻ img sử dụng @Url.Content -->
+                <img class="image" src="@Url.Content("~/img/banner.png")" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">#1 về đặt vận chuyển <span class="text-primary">Cá Koi</span> Việt Nam</h1>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Tìm hiểu thêm về dịch vụ</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Nhận báo giá miễn phí</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="image" src="@Url.Content("~/img/banner.png")" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">#1 về đặt vận chuyển <span class="text-primary">Cá Koi</span> Việt Nam</h1>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Tìm hiểu thêm về dịch vụ</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Nhận báo giá miễn phí</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+    <main class="content-wrapper">
+        <!-- Sứ mệnh & Tầm nhìn -->
+        <section class="content-block fade-in-up">
+            <h2>Sứ mệnh & Tầm nhìn</h2>
+            <p>
+                Chúng tôi tự hào là nhà cung cấp dịch vụ vận chuyển chuyên nghiệp cho cá koi – một loại cá cảnh có giá trị cao và cần sự chăm sóc đặc biệt trong suốt quá trình vận chuyển.
+            </p>
+            <p><strong>Sứ mệnh:</strong> Đảm bảo cá koi được vận chuyển <strong>an toàn</strong>, <strong>khỏe mạnh</strong>, và đến đúng địa điểm theo yêu cầu của khách hàng.</p>
+            <p><strong>Tầm nhìn:</strong> Không ngừng nâng cao tiêu chuẩn dịch vụ để trở thành đơn vị vận chuyển cá koi hàng đầu tại thị trường <strong>trong nước</strong> và <strong>quốc tế</strong>.</p>
+            <p><strong>Giá trị cốt lõi:</strong></p>
+            <ul>
+                <li><strong>An toàn:</strong> Đặt sự an toàn của cá koi lên hàng đầu.</li>
+                <li><strong>Uy tín:</strong> Cam kết dịch vụ đúng hẹn và chất lượng cao.</li>
+                <li><strong>Hài lòng:</strong> Mang đến trải nghiệm tốt nhất cho khách hàng.</li>
+            </ul>
+        </section>
+
+
+        <!-- Lịch sử & Thành tựu -->
+        <section class="content-block fade-in-up">
+            <h2>Lịch sử & Thành tựu</h2>
+            <p>
+                Kể từ ngày đầu thành lập, chúng tôi đã không ngừng phát triển từ một công ty nhỏ chuyên cung cấp dịch vụ vận chuyển cá koi trong nước, trở thành một thương hiệu đáng tin cậy của các <strong>trại nuôi</strong> và <strong>người chơi cá cảnh</strong>.
+            </p>
+            <p><strong>Mạng lưới quốc tế:</strong></p>
+            <p>
+                Chúng tôi đã xây dựng một hệ thống vận chuyển quốc tế, kết nối các nhà cung cấp cá koi tại <strong>Nhật Bản</strong>, <strong>Việt Nam</strong>, và nhiều thị trường khác trên toàn cầu.
+            </p>
+            <p><strong>Thành tựu nổi bật:</strong></p>
+            <ul>
+                <li>Phát triển <strong>công nghệ đóng gói tiên tiến</strong> để bảo vệ cá koi trong suốt hành trình vận chuyển.</li>
+                <li>Áp dụng hệ thống <strong>điều hòa nhiệt độ</strong> và quản lý <strong>môi trường nước</strong> nhằm đảm bảo cá koi luôn trong tình trạng tốt nhất trong các chuyến vận chuyển dài.</li>
+            </ul>
+            <p>
+                Chúng tôi luôn nỗ lực cải tiến công nghệ và quy trình để đáp ứng những yêu cầu khắt khe nhất của khách hàng.
+            </p>
+        </section>
+
+
+        <!-- Dịch vụ vận chuyển cá Koi -->
+        <section class="content-block fade-in-up">
+            <h2>Dịch vụ vận chuyển cá Koi</h2>
+            <img src="~/img/donggoi.jpg" alt="Hình minh họa Dịch vụ vận chuyển cá koi" style="display: block; margin: 20px auto; max-width: 100%; height: auto;">
+            <p><strong>Quy trình vận chuyển cá Koi Nhật Bản chuyên nghiệp:</strong></p>
+            <ol>
+                <li>
+                    <strong>Đóng gói:</strong>
+                    <ul>
+                        <li>Chuẩn bị túi ni lông chứa đầy nước và bơm oxy để đảm bảo cá koi có đủ không khí trong suốt quá trình vận chuyển.</li>
+                        <li>Đóng gói bảo vệ bằng hộp cách ly chống sốc nhiệt và va đập.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Vận chuyển:</strong>
+                    <ul>
+                        <li>Sử dụng phương tiện vận chuyển có hệ thống thông gió và kiểm soát nhiệt độ để giữ môi trường ổn định cho cá koi.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Chăm sóc trong quá trình vận chuyển:</strong>
+                    <ul>
+                        <li>Theo dõi liên tục nhiệt độ, chất lượng nước, và nồng độ oxy để đảm bảo cá luôn trong tình trạng tốt nhất.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Thủ tục hải quan:</strong>
+                    <ul>
+                        <li>Khai báo và kiểm dịch động vật để đảm bảo cá koi đáp ứng đủ các yêu cầu pháp lý khi vận chuyển qua biên giới.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Chăm sóc sau vận chuyển:</strong>
+                    <ul>
+                        <li>Thích nghi cá với môi trường mới trong hồ riêng, theo dõi sức khỏe kỹ lưỡng để đảm bảo cá hồi phục tốt sau hành trình.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+
+
+    </main>
+
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">Khám phá dịch vụ của chúng tôi</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <!-- Sử dụng @Url.Content cho đường dẫn hình ảnh -->
+                            <img class="img-fluid" src="@Url.Content("~/img/service-1.jpg")" alt="">
+                        </div>
+                        <h4 class="mb-3">Vận tải hàng không</h4>
+                        <p>Chúng tôi cung cấp dịch vụ vận chuyển cá Koi nhanh chóng bằng đường hàng không. Đảm bảo kiểm soát nhiệt độ, độ ẩm và oxy trong suốt quá trình vận chuyển, giúp cá Koi đến nơi an toàn và khỏe mạnh.</p>
+                        <a class="btn-slide mt-2" href="@Url.Action("Airway", "ServiceDetails")"><i class="fa fa-arrow-right"></i><span>Đọc thêm</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="@Url.Content("~/img/service-2.jpg")" alt="">
+                        </div>
+                        <h4 class="mb-3">Vận tải đường biển</h4>
+                        <p>Vận chuyển cá Koi bằng đường biển là phương án tiết kiệm chi phí với thùng chứa chuyên dụng đảm bảo môi trường sống phù hợp cho cá trong suốt hành trình dài. Thích hợp cho các lô hàng lớn.</p>
+                        <a class="btn-slide mt-2" href="@Url.Action("Sea", "ServiceDetails")"><i class="fa fa-arrow-right"></i><span>Đọc thêm</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="@Url.Content("~/img/service-3.jpg")" alt="">
+                        </div>
+                        <h4 class="mb-3">Vận tải đường bộ</h4>
+                        <p>Dịch vụ vận chuyển đường bộ nội địa đảm bảo cá Koi được giao đúng thời gian, an toàn đến các địa điểm trên toàn quốc. Đội ngũ tài xế chuyên nghiệp giúp giám sát liên tục chất lượng trong suốt hành trình.</p>
+                        <a class="btn-slide mt-2" href="@Url.Action("Road", "ServiceDetails")"><i class="fa fa-arrow-right"></i><span>Đọc thêm</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="content-wrapper">
+        <!-- Chính sách -->
+        <section class="content-block fade-in-up">
+            <h2>Chính sách</h2>
+            <p><strong>1. Chính sách vận chuyển:</strong></p>
+            <p>Chúng tôi cam kết đảm bảo <strong>an toàn tuyệt đối</strong> cho cá koi trong suốt hành trình vận chuyển, đồng thời bảo vệ quyền lợi của khách hàng bằng những quy định rõ ràng và minh bạch.</p>
+
+            <p><strong>2. Chính sách bảo hiểm:</strong></p>
+            <p>Cung cấp gói <strong>bảo hiểm chuyên dụng</strong> cho cá koi, giúp khách hàng yên tâm hơn trong trường hợp xảy ra sự cố ngoài ý muốn. Quy trình giải quyết bảo hiểm nhanh chóng và minh bạch.</p>
+
+            <p><strong>3. Chính sách hoàn trả:</strong></p>
+            <ul>
+                <li>Cá không đạt yêu cầu như đã cam kết.</li>
+                <li>Cá gặp sự cố trong quá trình vận chuyển.</li>
+            </ul>
+            <p>Tất cả các yêu cầu hoàn trả đều được thực hiện theo quy trình rõ ràng và đảm bảo công bằng cho khách hàng.</p>
+        </section>
+
+    </main>
+    <!-- Service End -->
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5">Chúng tôi là công ty vận chuyển cá Koi uy tín từ năm 1990</h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Dịch vụ toàn cầu</h5>
+                            <p class="mb-0">Chúng tôi cung cấp dịch vụ vận chuyển cá Koi từ Nhật Bản và nhiều quốc gia khác đến khắp nơi trên thế giới. Đảm bảo cá Koi của bạn được chăm sóc tốt nhất trong suốt hành trình.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Giao hàng đúng hẹn</h5>
+                            <p class="mb-0">Với hệ thống vận chuyển chuyên nghiệp và đội ngũ nhân viên tận tâm, chúng tôi cam kết giao cá Koi của bạn đúng thời gian và trong điều kiện sức khỏe tốt nhất.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Hỗ trợ qua điện thoại 24/7</h5>
+                            <p class="mb-0">Chúng tôi luôn sẵn sàng hỗ trợ bạn bất cứ lúc nào, mọi ngày trong tuần. Đội ngũ chăm sóc khách hàng của KoiDelivery sẽ giúp bạn giải đáp mọi thắc mắc về vận chuyển, quy trình và cách chăm sóc cá Koi, đảm bảo rằng bạn nhận được sự hỗ trợ nhanh chóng và chính xác.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <!-- Sử dụng @Url.Content cho đường dẫn hình ảnh -->
+                        <img class="position-absolute img-fluid w-100 h-100" src="@Url.Content("~/img/feature.jpg")" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+    <!-- Quote Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Nhận báo giá</h6>
+                                <h1 class="mb-5">Nhận báo giá miễn phí!</h1>
+                                <p class="mb-5">Hãy để chúng tôi giúp bạn ước tính chi phí vận chuyển cá Koi nhanh chóng và chính xác. Chỉ cần điền thông tin vào mẫu bên dưới, đội ngũ của KoiDelivery sẽ liên hệ và gửi báo giá chi tiết cho bạn trong thời gian sớm nhất</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                                        <h6>Liên hệ nếu có bất kỳ thắc mắc nào</h6>
+                            <h3 class="text-primary m-0">+84 123456789</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Tên của bạn" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Email của bạn" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Số điện thoại của bạn" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Chọn một loại vận hàng hóa</option>
+                                        <option value="1">Vận tải hàng không</option>
+                                        <option value="2">Vận tải đường biển</option>
+                                        <option value="3">Vận tải đường bộ</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Lưu ý đặc biệt"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Gửi</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">Đội ngũ chuyên gia của chúng tôi</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="@Url.Content("~/img/team-1.jpg")" alt="">
+                        </div>
+                        <h5 class="mb-0">Nguyễn Thanh Minh</h5>
+                        <p>Chuyên gia vận chuyển cá Koi</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="@Url.Content("~/img/team-2.jpg")" alt="">
+                        </div>
+                        <h5 class="mb-0">Trần Văn Hùng</h5>
+                        <p>Quản lý vận hành dịch vụ vận chuyển</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="@Url.Content("~/img/team-3.jpg")" alt="">
+                        </div>
+                        <h5 class="mb-0">Phạm Anh Tuấn</h5>
+                        <p>Chuyên gia kỹ thuật vận chuyển cá Koi</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="@Url.Content("~/img/team-4.jpg")" alt="">
+                        </div>
+                        <h5 class="mb-0">Nguyễn Minh Chiến</h5>
+                        <p>Chuyên viên chăm sóc cá Koi</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="text-center">
+                <h1 class="mb-0">Khách hàng của chúng tôi nói gì?</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="@Url.Content("~/img/testimonial-1.jpg")" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Nguyễn Thị Lan</h5>
+                            <p class="m-0">Chủ hồ cá Koi</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Dịch vụ vận chuyển cá Koi của KoiDelivery thật sự đáng tin cậy. Cá Koi của tôi được vận chuyển nhanh chóng và trong tình trạng rất tốt khi đến nơi.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="@Url.Content("~/img/testimonial-2.jpg")" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Trần Văn Hùng</h5>
+                            <p class="m-0">Chủ trang trại cá Koi</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">KoiDelivery luôn đảm bảo chất lượng trong từng khâu vận chuyển. Từ việc đóng gói đến giao hàng, tôi hoàn toàn yên tâm khi giao cá Koi của mình cho họ.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="@Url.Content("~/img/testimonial-3.jpg")" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Phạm Minh Tuấn</h5>
+                            <p class="m-0">Nhà kinh doanh cá Koi</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Đội ngũ KoiDelivery rất chuyên nghiệp và tận tâm. Cá Koi của tôi đã đến nơi đúng thời gian và không hề có vấn đề về sức khỏe.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="@Url.Content("~/img/testimonial-4.jpg")" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Lê Thị Hồng</h5>
+                            <p class="m-0">Nhà sưu tầm cá Koi</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">Tôi rất ấn tượng với sự chuyên nghiệp của KoiDelivery. Cá Koi của tôi được đóng gói cẩn thận và vận chuyển nhanh chóng, đảm bảo an toàn tuyệt đối cho cá.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+    <!-- Related Articles Start -->
+    <style>
+        .related-article img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            aspect-ratio: 16 / 9;
+        }
+
+        .related-article {
+            min-height: 450px; /* Đặt chiều cao tối thiểu */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #ddd; /* Tùy chọn: Thêm viền cho thẻ */
+            border-radius: 8px; /* Tùy chọn: Bo góc */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tùy chọn: Hiệu ứng đổ bóng */
+        }
+
+            .related-article .btn {
+                margin-top: auto; /* Đẩy nút xuống dưới */
+            }
+    </style>
+
+    <div class="container-xxl py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h6 class="text-secondary text-uppercase">Bài viết liên quan</h6>
+                <h1 class="mb-0">Khám phá thêm</h1>
+            </div>
+            <div class="row g-4">
+                <!-- Bài viết 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="related-article bg-white p-4">
+                        <img src="https://sanvuonadong.vn/wp-content/uploads/2020/07/can-canh-dan-ca-koi-khong-lo-cua-dai-gia-o-tp-hcm-03-san-vuon-a-dong.jpg" alt="Bài viết 1">
+                        <h5 class="mb-2">Hướng dẫn nuôi cá Koi</h5>
+                        <p class="mb-3">Khám phá cách nuôi cá Koi đúng cách để đảm bảo sức khỏe và vẻ đẹp của chúng.</p>
+                        <a href="https://sanvuonadong.vn/nuoi-ca-koi.html" class="btn btn-secondary btn-sm">Đọc thêm</a>
+                    </div>
+                </div>
+
+                <!-- Bài viết 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="related-article bg-white p-4">
+                        <img src="~/img/Screenshot 2024-11-18 151915.png" alt="Bài viết 2">
+                        <h5 class="mb-2">Cá Koi Nhật Bản kiến thức từ A đến Z</h5>
+                        <p class="mb-3">Tìm hiểu tất cả thông tin từ cơ bản đến nâng cao về cá Koi Nhật Bản.</p>
+                        <a href="https://kanokoi.com/ca-koi-nhat-ban" class="btn btn-secondary btn-sm">Đọc thêm</a>
+                    </div>
+                </div>
+
+                <!-- Bài viết 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="related-article bg-white p-4">
+                        <img src="https://cakoibienhoa.com/public/userfiles/images/tin-tuc/nuoi-ca-koi-1.jpg" alt="Bài viết 3">
+                        <h5 class="mb-2">Top 6 loại thức ăn lên màu cho cá Koi</h5>
+                        <p class="mb-3">Tìm hiểu các loại thức ăn giúp cá Koi phát triển màu sắc đẹp nhất và khỏe mạnh.</p>
+                        <a href="https://thucancakoihikari.com/thuc-an-len-mau-cho-ca-koi/" class="btn btn-secondary btn-sm">Đọc thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Địa chỉ</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>UTH quận 12</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+84 123456789</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>uth@ut.edu.vn</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/xi.van.184?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Các dịch vụ</h4>
+                    <a class="btn btn-link" href="#">Vận tải hàng không</a>
+                    <a class="btn btn-link" href="#">Vận tải đường biển</a>
+                    <a class="btn btn-link" href="#">Vận tải đường biển</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Các liên kết nhanh</h4>
+                    <a class="btn btn-link" asp-controller="Home" asp-action="About">Giới thiệu về chúng tôi</a>
+                    <a class="btn btn-link" href="@Url.Action("Contact", "Home")">Liên hệ</a>
+                    <a class="btn btn-link" href="#">Dịch vụ của chúng tôi</a>
+                    <a class="btn btn-link" href="@Url.Action("TermsAndCondition", "Home")">Điều khoản & Điều kiện</a>
+                    <a class="btn btn-link" href="@Url.Action("Support", "Home")">Hỗ trợ</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Bản tin</h4>
+                    <p>Đăng ký để nhận thông tin và ưu đãi mới nhất từ chúng tôi.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Email của bạn">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">2024 KoiDelivery</a>, All Rights Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!-- Thêm nội dung khác tại đây nếu cần -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    @RenderBody()
+                <!-- Back to Top -->
+                <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+                <!-- JavaScript Libraries -->
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+                <script src="@Url.Content("~/lib/wow/wow.min.js")"></script>
+                <script src="@Url.Content("~/lib/easing/easing.min.js")"></script>
+                <script src="@Url.Content("~/lib/waypoints/waypoints.min.js")"></script>
+                <script src="@Url.Content("~/lib/counterup/counterup.min.js")"></script>
+                <script src="@Url.Content("~/lib/owlcarousel/owl.carousel.min.js")"></script>
+
+                <!-- Template Javascript -->
+                <script src="@Url.Content("~/js/main.js")"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.EditUserViewModel
+
+@{
+    ViewData["Title"] = "Chỉnh sửa thông tin cá nhân";
+    Layout = "~/Views/Shared/_layoutProfile.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4 p-4">
+        <h2 class="text-center text-primary fw-bold mb-4">@ViewData["Title"]</h2>
+
+        <!-- Hiển thị thông báo lỗi tổng quát -->
+        @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
+
+        <form asp-action="Edit" method="post" class="needs-validation" novalidate>
+            <!-- Trường ẩn UserId -->
+            <input type="hidden" asp-for="UserId" />
+
+            <!-- Họ và Tên -->
+            <div class="mb-4">
+                <label asp-for="Name" class="form-label fw-semibold">Họ và Tên</label>
+                <input asp-for="Name" class="form-control border-info rounded-pill shadow-sm" placeholder="Nhập họ và tên của bạn" required />
+                <span asp-validation-for="Name" class="text-danger small"></span>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-4">
+                <label asp-for="Email" class="form-label fw-semibold">Địa chỉ Email</label>
+                <input asp-for="Email" type="email" class="form-control border-info rounded-pill shadow-sm" placeholder="Nhập email của bạn" required />
+                <span asp-validation-for="Email" class="text-danger small"></span>
+            </div>
+
+            <!-- Số điện thoại -->
+            <div class="mb-4">
+                <label asp-for="Phone" class="form-label fw-semibold">Số điện thoại</label>
+                <input asp-for="Phone" type="tel" class="form-control border-info rounded-pill shadow-sm" placeholder="Nhập số điện thoại của bạn" required />
+                <span asp-validation-for="Phone" class="text-danger small"></span>
+            </div>
+
+            <!-- Địa chỉ -->
+            <div class="mb-4">
+                <label asp-for="Address" class="form-label fw-semibold">Địa chỉ</label>
+                <input asp-for="Address" class="form-control border-info rounded-pill shadow-sm" placeholder="Nhập địa chỉ của bạn" required />
+                <span asp-validation-for="Address" class="text-danger small"></span>
+            </div>
+
+            <!-- Nút Lưu và Hủy -->
+            <div class="d-flex justify-content-between mt-4">
+                <button type="submit" class="btn btn-primary px-4 rounded-pill shadow-sm">Lưu thay đổi</button>
+                <a asp-action="Index" class="btn btn-outline-secondary px-4 rounded-pill shadow-sm">Hủy bỏ</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- CSS tùy chỉnh -->
+<style>
+    .container {
+        max-width: 600px;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+    .form-label {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .form-control {
+        height: calc(2.5rem + 2px);
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .btn-primary {
+        background-color: #0d6efd;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #084298;
+        }
+
+    .btn-outline-secondary {
+        font-size: 1rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+        .btn-outline-secondary:hover {
+            color: white;
+            background-color: #6c757d;
+        }
+
+    .alert-danger {
+        font-size: 0.9rem;
+        border-radius: 10px;
+    }
+
+    .rounded-pill {
+        border-radius: 50rem !important;
+    }
+</style>
+
+<!-- Thêm xác thực jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>

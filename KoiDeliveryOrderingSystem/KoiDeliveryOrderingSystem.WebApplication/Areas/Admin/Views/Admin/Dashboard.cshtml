@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Thống kê báo cáo";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var monthlyReports = ViewBag.MonthlyReports as List<KoiDeliveryOrderingSystem.Repositories.MonthlyReport>;
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white text-center">
+            <h4 class="mb-0">Thống kê báo cáo</h4>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-hover table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Năm</th>
+                        <th>Tháng</th>
+                        <th>Doanh thu</th>
+                        <th>Tổng số đơn hàng</th>
+                        <th>Đơn hàng đã giao</th>
+                        <th>Đơn hàng đang chờ</th>
+                        <th>Đơn hàng đang giao</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (monthlyReports != null && monthlyReports.Count > 0)
+                    {
+                        foreach (var report in monthlyReports)
+                        {
+                            <tr>
+                                <td>@report.Year</td>
+                                <td>@report.Month</td>
+                                <td>@report.Revenue.ToString("C")</td>
+                                <td>@report.TotalOrders</td>
+                                <td>@report.DeliveredOrders</td>
+                                <td>@report.PendingOrders</td>
+                                <td>@report.ShippedOrders</td> <!-- Hiển thị số đơn hàng đang giao -->
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-muted">
+                                Không có dữ liệu để hiển thị.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

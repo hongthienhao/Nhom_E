@@ -1,0 +1,70 @@
+﻿/* Đặt kiểu chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Định dạng cho tiêu đề */
+h1 {
+    color: #3a87ad;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Định dạng cho container chính */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* Định dạng cho các mục hỗ trợ */
+.support-options {
+    margin-top: 20px;
+}
+
+.support-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 4px solid #3a87ad;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+    .support-item h2 {
+        color: #3a87ad;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    .support-item p {
+        margin: 5px 0;
+    }
+
+/* Định dạng cho các liên kết */
+a {
+    color: #3a87ad;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Định dạng cho phần footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 0.9em;
+}

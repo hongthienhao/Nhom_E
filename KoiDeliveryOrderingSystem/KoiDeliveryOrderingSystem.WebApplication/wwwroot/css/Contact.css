@@ -1,0 +1,168 @@
+﻿/* Tổng quan */
+body {
+    font-family: 'Inter', 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6; /* Tăng khoảng cách giữa các dòng cho dễ đọc hơn */
+}
+
+/* Thanh điều hướng */
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px; /* Tăng chiều cao của thanh điều hướng */
+}
+
+    .navbar .nav-link {
+        font-weight: 500;
+        padding: 12px 20px; /* Tăng khoảng đệm để mục điều hướng lớn hơn */
+        transition: color 0.3s ease-in-out;
+    }
+
+        .navbar .nav-link:hover, .navbar .nav-link.active {
+            color: #0d6efd !important;
+        }
+
+/* Tiêu đề Trang */
+.page-header {
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    text-align: center;
+    padding: 40px 0; /* Thêm khoảng đệm để tiêu đề lớn hơn */
+}
+
+    .page-header h1 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 2.5rem; /* Tăng kích thước chữ của tiêu đề */
+    }
+
+/* Phần Liên Hệ */
+.contact-form {
+    padding: 20px 40px; /* Tăng khoảng đệm xung quanh phần liên hệ */
+    max-width: 800px; /* Giới hạn chiều rộng để cân đối hơn */
+    margin: 0 auto; /* Căn giữa phần liên hệ */
+}
+
+    .contact-form h1 {
+        color: #4e73df;
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-size: 1.8rem; /* Tăng kích thước chữ */
+    }
+
+    .contact-form label {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 5px; /* Thêm khoảng cách dưới nhãn */
+    }
+
+    .contact-form input, .contact-form textarea {
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 12px; /* Tăng khoảng đệm trong ô nhập liệu */
+        width: 100%; /* Giúp ô nhập liệu chiếm toàn bộ chiều rộng */
+        margin-bottom: 15px; /* Thêm khoảng cách giữa các ô nhập liệu */
+    }
+
+    .contact-form button {
+        background-color: #4e73df;
+        border: none;
+        padding: 12px 25px; /* Tăng kích thước nút */
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        cursor: pointer; /* Thêm con trỏ chuột khi di chuột vào nút */
+    }
+
+        .contact-form button:hover {
+            background-color: #1cc88a;
+        }
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #adb5bd;
+    padding: 50px 20px; /* Tăng khoảng đệm của footer */
+    text-align: center; /* Căn giữa nội dung footer */
+}
+
+    .footer h4 {
+        color: #ffffff;
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-size: 1.5rem; /* Tăng kích thước chữ */
+    }
+
+    .footer a {
+        color: #adb5bd;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            color: #ffffff;
+        }
+
+    .footer .btn-social {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: background-color 0.3s ease;
+    }
+
+        .footer .btn-social:hover {
+            background-color: #1cc88a;
+            color: #ffffff;
+        }
+
+/* Nút Cuộn Lên */
+.back-to-top {
+    background-color: #4e73df;
+    border: none;
+    color: #ffffff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Thêm con trỏ chuột cho nút cuộn lên */
+}
+
+    .back-to-top:hover {
+        background-color: #1cc88a;
+    }
+/* Bố cục phần Bản đồ và Thông tin Liên hệ */
+.contact-section {
+    display: flex;
+    justify-content: space-between; /* Giãn đều hai phần */
+    align-items: flex-start; /* Căn các phần từ trên cùng */
+    gap: 20px; /* Thêm khoảng cách giữa hai phần */
+    margin-top: 30px; /* Thêm khoảng cách trên để phần này rõ ràng hơn */
+}
+
+.map-container {
+    flex: 1.5; /* Bản đồ chiếm 1.5 phần không gian */
+    height: 400px; /* Chiều cao của bản đồ */
+}
+
+    .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none; /* Loại bỏ viền */
+    }
+
+.contact-info {
+    flex: 1; /* Thông tin liên hệ chiếm 1 phần không gian */
+    font-size: 14px; /* Kích thước chữ vừa phải */
+    line-height: 1.5; /* Khoảng cách dòng thoải mái */
+    padding: 10px; /* Thêm khoảng đệm */
+}

@@ -1,0 +1,41 @@
+﻿@model KoiDeliveryOrderingSystem.Repositories.ErrorViewModel
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="container">
+    <h1 class="text-danger">Oops! Something went wrong.</h1>
+    <h2 class="text-danger">An error occurred while processing your request.</h2>
+
+    @if (Model?.ShowRequestId == true)
+    {
+        <p>
+            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+        </p>
+    }
+
+    <hr />
+
+    <h3>For Developers</h3>
+    <p>
+        You are seeing this message because the application encountered an unexpected issue. If you are a developer, you can enable <strong>Development</strong> mode for more detailed information.
+    </p>
+    <p>
+        <strong>Note:</strong> The <strong>Development</strong> environment should not be enabled for deployed applications, as it may expose sensitive information.
+    </p>
+    <p>
+        To enable <strong>Development</strong> mode locally:
+        <ul>
+            <li>Set the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>.</li>
+            <li>Restart the application.</li>
+        </ul>
+    </p>
+
+    <hr />
+
+    <h4>Contact Support</h4>
+    <p>If this problem persists, please contact support or try again later.</p>
+
+    <a href="/" class="btn btn-primary">Return to Home</a>
+</div>
